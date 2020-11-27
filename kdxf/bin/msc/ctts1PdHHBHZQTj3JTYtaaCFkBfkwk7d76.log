@@ -1,0 +1,1508 @@
+============================================================
+Time  2020/11/25 10:54:41 602 
+============================================================
+[2020/11/25 10:54:41 603] tts        620  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(b510e140) 
+[2020/11/25 10:54:41 609] config     16   now we use general cloud  
+[2020/11/25 10:54:41 622] tts_cloud  1327 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(b510e140) 
+[2020/11/25 10:54:41 623] tts        593  TTS_MSG_SSB  
+[2020/11/25 10:54:41 624] tts        446  ssb|use cloud  
+[2020/11/25 10:54:41 625] tts_cloud  1298 SYS_MSG_LOAD_CLOUD  
+[2020/11/25 10:54:41 625] tts_cloud  899  TTS_MSG_SSB_CLOUD  
+[2020/11/25 10:54:41 625] tts_cloud  919  tts  ctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76  268436457  1428405388  
+[2020/11/25 10:54:41 627] tts_cloud  965  not login!  
+[2020/11/25 10:54:41 629] tts_cloud  1092 TTS_MSG_SSB | aue=  speex-wb;7   auf=  audio/L16;rate=16000  
+[2020/11/25 10:54:41 630] tts_cloud  1102 User set url is   nil  
+[2020/11/25 10:54:41 630] transport  596  paramkvsport is   nil  
+[2020/11/25 10:54:41 630] transport  801  net type:  standard  
+[2020/11/25 10:54:41 631] transport  802  net operator:  def  
+[2020/11/25 10:54:41 631] transport  803  use proxy:  false  
+[2020/11/25 10:54:41 635] network    85   ipfromenv ,  ipcache  dev.voicecloud.cn  def  nil  
+[2020/11/25 10:54:41 635] transport  1033 ns_i =  nil  
+[2020/11/25 10:54:41 637] tts        598  TTS_MSG_SYN  0  
+[2020/11/25 10:54:41 638] tts        486  synth|use cloud  
+[2020/11/25 10:54:41 638] tts_cloud  1118 TTS_MSG_SYN_CLOUD  
+[2020/11/25 10:54:41 638] tts_cloud  1129 remote_connected =  false  
+[2020/11/25 10:54:41 641] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:41 641] tts        539  get audio|use cloud  
+[2020/11/25 10:54:41 642] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:41 661] transport  155  [dns] [0] response 42.62.116.34  
+[2020/11/25 10:54:41 661] transport  163  42  62  116  34  
+[2020/11/25 10:54:41 661] transport  192  iplist not avail  
+[2020/11/25 10:54:41 661] transport  247  no iplist now  
+[2020/11/25 10:54:41 661] network    90   iptoenv ,  ipcache  dev.voicecloud.cn  def  42.62.116.34  
+[2020/11/25 10:54:41 663] transport  1108 [soc] connect   42.62.116.34  80  
+[2020/11/25 10:54:41 760] transport  458  [soc] [0] connected  
+[2020/11/25 10:54:41 760] tts_cloud  290  text =  udata(b51045c0) 
+[2020/11/25 10:54:41 760] tts_cloud  671  send ssb request  
+[2020/11/25 10:54:41 760] tts_cloud  541  lver:  nil  
+[2020/11/25 10:54:41 760] tts_cloud  546  cfg_ver:  nil  
+[2020/11/25 10:54:41 760] transport  1160 build http request.  
+[2020/11/25 10:54:41 761] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 796
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:194
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=tts&cmd=ssb&aue=speex%2Dwb%3B7&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E11%2E1086&net%5Ftype=standard&csid=ctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76&key=0c4G4KJ85svIwbN6G9fVenmQ==
+----
+CL:192
+CT:binary/synth+text
+CE:gzip,encrypt/0.2
+
+“)áCš$Ã0øx?·e!0Õ8œ‘\€ˆñ}qvåùdÌ~pºE“›óNø¤nİ|sm¦6²öòt³•Ù¿PV%ÅWA[÷q­…	ú?'ïtbİeœØğ­oYSØ]Û›]`Õ}™Ã•#Ex!Û/Û²Ï”äTí©Álk]­¥²™=l•œìåÿá¬â«9³ËLñ”VÉ}Åè
+Ms„÷•îˆç
+.OŸ}j†ÊÂÆ„*ÅÎÉ0 ¾“!  
+[2020/11/25 10:54:41 764] transport  480  [soc] [0] send ok  971  
+[2020/11/25 10:54:41 793] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:41 793] tts        539  get audio|use cloud  
+[2020/11/25 10:54:41 793] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:41 846] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:41 846] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 1779
+X-Req-Date: 2020/11/25 10:54:41 820
+CL: 1779
+X-Res-Date: 2020/11/25 10:54:41 838
+
+----
+CT:text/plain
+CL:143
+
+ver=MSSP+0%2E9&ret=0&uid=d15712906704&ofg=1&ced=9&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^ecacJAk0EnHQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:1536
+
+A`£¿†œœœœœœœâtÀ  
+[2020/11/25 10:54:41 847] transport  1534 ¶5’~r•><ğCÜøâˆ·ô,Rwiè7±/a!!lù¼Ü¥Åô\ët,æ³æÂãHD¥•Z&RìÜ“ÿ|~WbxF@xrİA&Gß °›&îæ—(-ÿÚ’n°Î¥fhüŸÚiá…x¦“HD®ÛÖÇ‚ï]Pçôi¿1íKÑby«‰l§X¡¾b÷nœ§2®%­¸Øµœâ©ö•N†öb±öĞ4 Æù3HD®Û×æ‘ek™¹=4>	‚÷ı®šø}Ÿ])œ+°iéI©6ÏŒ°C®1s[ˆûş`½7T0Ğ~Ç®†3HDºƒ² EòÒ-ó]9íïÀÒø²fğfp·Öæë‚á˜BîB¢ñ×1)ßşI÷ƒê†F•ÙWôòÃH@EŠQ#ÃÇë‚sˆmo{Ü’¨[‰Cz¹ğrñrõÎ'@ğ$>&è±ÕÓ}ÒNşM
+g@,V“'óHDJ›ÖÌ-Q„¥+óuÌıd;*.#£ĞµıĞÛ»>&X1h2Á9‡!õŞàõü5}Ù„y4f\ƒHAÌ$ç“š^õ”(_îö0l}F™UuRµ„{ùhá$^Ïí¼„‰¡ók9bÈ~ÈUº61Ğ€ÁÓñ¹ÙƒHAÕ;ÔÍL«=Í†¶lÛWè[BâHøP‡¾¥}Z`k=ztşSÁİyı÷ÈY¾Ê7X  
+[2020/11/25 10:54:41 847] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:41 847] transport  1390 is_update  true  
+[2020/11/25 10:54:41 847] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:41 847] tts_cloud  326  response  
+[2020/11/25 10:54:41 847] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:41 847] tts_cloud  403  synth_parse_response| ssb time:  87  .  
+[2020/11/25 10:54:41 847] tts_cloud  404  text to first audio:  87  .  
+[2020/11/25 10:54:41 848] tts_cloud  450  before decode audiolen:  16000  ,ced:  9  ,markinfo:  nil  
+[2020/11/25 10:54:41 848] tts_cloud  739  aud_data:len()=  1525  
+[2020/11/25 10:54:41 848] tts_cloud  686  send fch request  
+[2020/11/25 10:54:41 848] transport  1160 build http request.  
+[2020/11/25 10:54:41 848] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dQ88KmQFXgvg7A4XA6CoBE  
+[2020/11/25 10:54:41 850] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:41 858] tts_cloud  650  u_aul =  16000  audiolen =  16000  
+[2020/11/25 10:54:41 858] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:41 946] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:41 947] tts        539  get audio|use cloud  
+[2020/11/25 10:54:41 948] tts_cloud  1157 after decode audiolen:  16000  ,ced:  9  ,markinfo:  nil  
+[2020/11/25 10:54:41 948] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:41 948] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:41 949] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3467
+X-Req-Date: 2020/11/25 10:54:41 909
+CL: 3467
+X-Res-Date: 2020/11/25 10:54:41 931
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&ced=34&cver=5%2E0%2E11%2E1086&ofg=1&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dQ88KmQFXgvg7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3240
+
+Ó¥ø] d÷I€N¿  
+[2020/11/25 10:54:41 949] transport  1534 t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:41 949] transport  1534 ¥>³÷ã›Ú78SÅØR•S6OÏ+÷"@sƒ ƒ¹àùU¼Şgôçu”>ÄœHCfô°Ù†ûY|ßP³ÇÛqÇÏ‘ICéùq:Á’Jæ@³—7W[àD:Ü"TÖFş}÷0÷ë(	ö¤`ãHGfÕY¥KA&³öç«½}­sıHJz¢sâşèÉ¬ÏuPÓ/ª»^Tr‡YÕœşŞ`ukñ#ÁEazsHGfÓèû¨¢Â?¤J‹3*ˆ$İ!w¹[¨Q&A®ú9û€*R§„’½àÀÑ	ü¹şŞ Y$÷©Of„wvVãHGfÒ&æ]V0Èï±`;Šg2¬e>ÜøÂâ÷­NI71¯ñ$–åoèìõhÒ.ö$6¿n¤1ZãHB6³Uz…ì;\1fíw:ÂuËêxXoÁt*Êô
+2tî‚>ŞÏ2ç#V;®¥¥&õb’œ§
+pÃHG0Ì¢s¹”øãœ8ªm‡oĞ?ÒC°6`
+¾Uac$í’‰{Opˆx?>³ôõ(D~°ô¹ñyü£HG0¬”ˆd…h»	ÒÀÙ Ñ¿»(w6³°"Î&cmíºBÅ¾Õv[~,9n	Î²„
+çú¦éA©VƒHA2QW}EnÑÄOõëm@ğÉã.\a¦'/âTDÂê·64ıPu#¼”>“IøÒ®³öm`·$0ñ$·HA:ĞÍìĞ5ÂÜXŞñÂ€=wÑ£¼Hİº}şpŒyMJµĞAƒÿÙñ½,µñøº»Şt7„‡DH@X>¡ÌO:;¼rşbFól•î®eÁ7Ø.X€¸S‹u‰CE‰}xÏ!"î^êä¹ô¤E8•ãHCµ~ÏMÌ¶-Oà\…°üÄ‰‘tHn…qÔph6™i“‚**oŞ2ı"­=¥OÁåYÙÁÅbXHE²WêÇ0jV°smCõıkNñğàı;×K‘zõEë…88¯iL5^Éx¸>LT™6Y¤,Xõ6W“HA6Ò  
+[2020/11/25 10:54:41 949] transport  1534 A+..#¡·§ÎXp<zü«}’xa/u`3C­
+rRJaŠ+ÊV|K óú^³>÷­XÖ4šóHA5|bNk?°âƒĞõíd¼ØÚìoâÀ€¼~†^Šjv¡½0oÕşCk\€z‘‡É%ë~Ô¨8<ÁHY®z>ô<ŒUÙÜ¡v"‡ÄÙãdº±€%1ä–sºòh”şŠ]_¢WÌO‡×|õˆ„Æ•t0ß¤ğoF6HFïF"U$“%‹oD²•JÄA	³ô{×3öØ2øYß•PÁ+•€ã°ÅgOnóõöÕ  
+[2020/11/25 10:54:41 949] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:41 949] transport  1390 is_update  true  
+[2020/11/25 10:54:41 949] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:41 950] tts_cloud  326  response  
+[2020/11/25 10:54:41 950] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:41 950] tts_cloud  450  before decode audiolen:  33920  ,ced:  34  ,markinfo:  nil  
+[2020/11/25 10:54:41 950] tts_cloud  739  aud_data:len()=  3233  
+[2020/11/25 10:54:41 950] tts_cloud  686  send fch request  
+[2020/11/25 10:54:41 950] transport  1160 build http request.  
+[2020/11/25 10:54:41 950] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^es2DurAZqtcw7A4XA6CoBE  
+[2020/11/25 10:54:41 952] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:41 969] tts_cloud  650  u_aul =  49920  audiolen =  49920  
+[2020/11/25 10:54:41 969] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 037] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 038] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3651
+X-Req-Date: 2020/11/25 10:54:42 19
+CL: 3651
+X-Res-Date: 2020/11/25 10:54:42 32
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=34&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^es2DurAZqtcw7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3424
+
+Z_›Ä>ÏšR@N?ßÍq}“,ˆ/ì<7+0ÅçV¤©]ìIQŞ°IıÇ|CbkIõWQ4¿”T1ÿtúvÃHE¢Læbf—¬<¬(+MY¹)È…ª4Ô–êí™Ï*ØY«o»ÿUaÓ#„Œ„ÑtTx#äĞY4Ö“HA ÉzÌ'NM+³ÃŞîy5 8íˆò¬ÅŸ¦l‡˜)*Î‘6¦Ì¼ñä  
+[2020/11/25 10:54:42 038] transport  1534 :R>l{Ç?a?¿Ù;"ö4œĞşÎtÑtM2üâ4ºİcH@]SŒf²µ9³5ÎÜ‹şL¯ß¸bñÒÀ½JhÎo£¾Yc3yönÎt@‰Â‹” QÄÀøcHCPä#lbÁËëµÂÅø;}®.•Fl¥¸²¼ã’[(—&h×Wë£şÃybÉÒ©şttÁùÃ7ĞYãHD+ÏÔbhfSãL™Ä÷NµÚ¡]¹€A½rÙbcÓÛ²ÊOtáW'¾rÉW“>q®ôf·äÀT¤Zö.£HD$éq  
+[2020/11/25 10:54:42 038] transport  1534 |Š˜a øqÊZ0~®Ja	¬EÔ yıbÍqÎÍtñÕt6Ä¸W¤tØsHEBQáaÚD[»lGélf;CW¯®«@…ò:ŞÍ´–tì§rwßÆ'2J(  
+[2020/11/25 10:54:42 038] transport  1534 ½î„wİµE&Í,fŠÚu5ç'ÕZaUQtr¿ÚYB.J^xóU‰lyk~OtÇÂÁÙÁÙHBéuîTò1œœœœœœœ…tÀ  
+[2020/11/25 10:54:42 038] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 038] transport  1390 is_update  true  
+[2020/11/25 10:54:42 038] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 038] tts_cloud  326  response  
+[2020/11/25 10:54:42 038] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 039] tts_cloud  450  before decode audiolen:  35840  ,ced:  34  ,markinfo:  nil  
+[2020/11/25 10:54:42 039] tts_cloud  739  aud_data:len()=  3416  
+[2020/11/25 10:54:42 039] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 039] transport  1160 build http request.  
+[2020/11/25 10:54:42 039] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fGKfgFPMOliQ7A4XA6CoBE  
+[2020/11/25 10:54:42 041] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 060] tts_cloud  650  u_aul =  85760  audiolen =  85760  
+[2020/11/25 10:54:42 060] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 099] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:42 099] tts        539  get audio|use cloud  
+[2020/11/25 10:54:42 099] tts_cloud  1157 after decode audiolen:  33920  ,ced:  34  ,markinfo:  nil  
+[2020/11/25 10:54:42 099] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:42 137] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 137] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3715
+X-Req-Date: 2020/11/25 10:54:42 119
+CL: 3715
+X-Res-Date: 2020/11/25 10:54:42 130
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=34&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fGKfgFPMOliQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3488
+
+ÌM¯ÅÇsÏ6š>Í®sK'/inpg¼˜®w~’R)qmsª4*aiPë&&¯1–.$t™n¤ZsHB6µ<Çx²Z†'ÊßåíèÍ9ms2ŞtM./´°ãŠ.š~Ÿ²óO€…ÿÑ^…æ~Œ¥SDöwÌ->¤QĞsHB.«ÔŒè7ë3Xnq£ ÅrHT§Ü¹Ìöö±3DãõàÍf’²~+…Yr5ó¿GÔ–cHF©½ĞÎ]©\J9î“Nñ¢£ş§„R“°6ŸûÿĞ;íVØĞ=(zª‹ıgo.+e{5ªs4»˜`öêR]ÈÕîMVaÎWv<¬èä²c(`7'  
+[2020/11/25 10:54:42 137] transport  1534 +¼ö>  
+[2020/11/25 10:54:42 137] transport  1534 hvBÓwø(9Wˆg{háğ’òEzm)”R“Ùä‚Lşªq.ÍµZc”ôß%ÖxMûsH@TÎ’n{‰Åõ³¶GìJs½FHÚó†—”“÷šaëk#¾v5¯¶Ùb»)a"¿¾LÁØÔîUûjqH@¿"7ï4†V”¿älÛ|‡@êFÕoÓˆpƒ/°n  
+[2020/11/25 10:54:42 138] transport  1534 E¦é§6²ıuB(ı<Lë•#6\có‡¹»LşŠßöûˆ:\%ÿæL¹pÔWÎÍ´²w+ÙtÆUtb£HCtIÓKq¥,%lP)âh£Â;Ó—Ë£¨íœÈÄó›£<ø"¾ZÅ|Y
+G„Â*À:eî™`’æüo£×"ó:÷œ=N}ˆH·èÌ~éXÑc‘R  
+[2020/11/25 10:54:42 138] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 138] transport  1390 is_update  true  
+[2020/11/25 10:54:42 138] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 138] tts_cloud  326  response  
+[2020/11/25 10:54:42 138] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 138] tts_cloud  450  before decode audiolen:  36480  ,ced:  34  ,markinfo:  nil  
+[2020/11/25 10:54:42 138] tts_cloud  739  aud_data:len()=  3477  
+[2020/11/25 10:54:42 139] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 139] transport  1160 build http request.  
+[2020/11/25 10:54:42 139] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eUH13sAIadhQ7A4XA6CoBE  
+[2020/11/25 10:54:42 140] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 159] tts_cloud  650  u_aul =  122240  audiolen =  122240  
+[2020/11/25 10:54:42 159] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 226] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 226] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3411
+X-Req-Date: 2020/11/25 10:54:42 200
+CL: 3411
+X-Res-Date: 2020/11/25 10:54:42 220
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=68&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eUH13sAIadhQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3184
+
+Nm²:/m9Ï£Ü£šÁ‘¨òÄ±Z#ZûYyÉ]İúûşoó¾ü÷¦yñ€=p5nÏdıØõ\pVşGçñÙHBñ©î”¢uú¡œœŒ\ÜÜßVÀ¸Ì—‚(ô>JnNNNNNFôYiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT¸uœœœœœœœ‹tÀ  
+[2020/11/25 10:54:42 226] transport  1534 t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:42 226] transport  1534 Ng/ñÅogR¦¢ â6êƒ^Ákâ2  
+[2020/11/25 10:54:42 227] transport  1534 CPµvÃ}*¿èÜC.O¬:¶Bšæi¶¶LënBşp€ä)RÙ90)a“~Ë¶zMæ‰ı¦Iıv’SHCB4Ìâ.–3„5®k7äfìÛ7ÃYbIœuµxLı¬ôê·›ïô¯Ã=g>0;Œ¦Ú55ê†ƒÅ(]ŸB¹ÃrªC#EL;Cr÷a\£	éÇ÷quÓáìõ²ææŒ,ı>_v¶$!å3·÷Õ–ô!ãH@Zjbb[JÓ+é;BÈÌŒÄ[OCu”©kø'ğğb’Sê•²MÛ|ñlUÎ·'1´ö„¸½fÆZCHFğğ:  
+[2020/11/25 10:54:42 227] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 227] transport  1390 is_update  true  
+[2020/11/25 10:54:42 227] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 227] tts_cloud  326  response  
+[2020/11/25 10:54:42 227] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 227] tts_cloud  450  before decode audiolen:  33280  ,ced:  68  ,markinfo:  nil  
+[2020/11/25 10:54:42 227] tts_cloud  739  aud_data:len()=  3172  
+[2020/11/25 10:54:42 228] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 228] transport  1160 build http request.  
+[2020/11/25 10:54:42 228] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eFzGEpYj6xNg7A4XA6CoBE  
+[2020/11/25 10:54:42 229] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 247] tts_cloud  650  u_aul =  155520  audiolen =  155520  
+[2020/11/25 10:54:42 247] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 250] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:42 250] tts        539  get audio|use cloud  
+[2020/11/25 10:54:42 250] tts_cloud  1157 after decode audiolen:  35840  ,ced:  34  ,markinfo:  nil  
+[2020/11/25 10:54:42 250] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:42 314] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 315] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3411
+X-Req-Date: 2020/11/25 10:54:42 299
+CL: 3411
+X-Res-Date: 2020/11/25 10:54:42 310
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=68&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eFzGEpYj6xNg7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3184
+
+á-Œ'ºŞ¥bÿ"õäôwÕÈc;$$s6+ü8ŸÂ='µ2µ$ã²²Å'OZ„'´¤ÁÙ±Ç8³HG ‰¤Ì{ŠiÜ1)5ıMóa&ØÂ‹	Ò.aëùùç³Ò\/‘ß~|Û~“4ÃiÔğä©øä3GóHG+xbm0î×ŒZ~š8Àı9(M˜HlÒìfQæƒˆ7s$úÈ€j—L’E
+“4‰Âô4'ÔÆ«4#dsHB.£eÎš.¡\™ZÜã  
+[2020/11/25 10:54:42 315] transport  1534 Lø»fÌªåáâ+¨<æÁÛ]~øOTÁØTÁÙÁÙÁÙHC\gGS·  
+[2020/11/25 10:54:42 315] transport  1534 Çü€>’ƒwÙKÒ•HP¢úx88~—³q'=s¿^’$ÀÇÅÌ–À{6ñòcHB6åŠ"ÙİÚ"snm8o@¡g6á‚ÖZ2yš!wJ~Yò†@*mMÉTÇÄ:1íLãHF;å¶ÂCÍò¤øXxë@ùîÈ˜X'‚®µlæ9.}ı³!u­ƒ…'Ô?<^éÏ4n‡î‡äÅ_ä¿µHA™1àFª­C}râr8“!œÈvÿ—°ƒøS
+Y«„Íš‘§¸¢ms›¹xŠNÅTÆYÁéäÁİóHAƒ1àX©©xˆ(wçÙaÛ9ÃçiïÇÖ~#î¤}fÙ“îS)ÚW'õ.LÔÁÇtÀÅÅ™HA„3zQÎ^5…Â0_Õå½IXñí n¿¥üsz¾ŸÏU7¨?Wgvö²Á".Í¥^è<šÑş×t´¤óHAË1àn*­`DóFù;@Fµ{ªâÎ²ÛÿÑÎ"ùãI±­5°édnMqÙÂ%Áõä¹ÙHAá1æ% RÌ#ÇWdºâŞ;MğOÊ()N4²ú  
+[2020/11/25 10:54:42 315] transport  1534 C@“B"~•iK-ü2ƒ6ÕCa85a—#  
+[2020/11/25 10:54:42 315] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 316] transport  1390 is_update  true  
+[2020/11/25 10:54:42 316] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 316] tts_cloud  326  response  
+[2020/11/25 10:54:42 316] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 316] tts_cloud  450  before decode audiolen:  33280  ,ced:  68  ,markinfo:  nil  
+[2020/11/25 10:54:42 316] tts_cloud  739  aud_data:len()=  3172  
+[2020/11/25 10:54:42 316] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 317] transport  1160 build http request.  
+[2020/11/25 10:54:42 317] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^c/l84ioAJBEQ7A4XA6CoBE  
+[2020/11/25 10:54:42 318] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 335] tts_cloud  650  u_aul =  188800  audiolen =  188800  
+[2020/11/25 10:54:42 335] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 403] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:42 403] tts        539  get audio|use cloud  
+[2020/11/25 10:54:42 403] tts_cloud  1157 after decode audiolen:  36480  ,ced:  34  ,markinfo:  nil  
+[2020/11/25 10:54:42 403] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:42 404] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 405] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3531
+X-Req-Date: 2020/11/25 10:54:42 379
+CL: 3531
+X-Res-Date: 2020/11/25 10:54:42 389
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=68&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^c/l84ioAJBEQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3304
+
+â÷T5Í#¯Dáék¡jWŒxû•xìïv¤ù®jöÛZ„U‰bSkNğŞ“06¼’¾†ÄÂ[Åj!£HD£[ÔL!mõÁÈ!Ã!èÚ@M;ra1.›Á{’BórBî5Ğ/4õ€ƒ™†n’†8Ø^ˆU’Jlá3H@ªÑÖÎM,?Ø?”Y?ØGa'’]¯@.¸HwÔáò_`“uø0‘oš“…;º¶Şå0ƒ¼PAEƒH@«cÒyæeø­øE0lò@œM%x ø÷bÃ?rJVÆ’NSÃ!!  
+[2020/11/25 10:54:42 406] transport  1534 Ù-ùÙ¡8†~şjoRè¹å |®O„òôÀD%DÇ&4HF¡§ì¬6ã5äêÌšÿ}^+=*9ÃïŠnNNFY£C8÷=ßWo2¾¥%6˜•z*v½°§ÖU#HFö[§¥t›T™õ¤dç‘é/ñÒF#šŞ¶ì  
+[2020/11/25 10:54:42 406] transport  1534 ôyËÚ€RñÆ±ó<Î?ëfgÎB®¬™MÏ½P  
+[2020/11/25 10:54:42 406] transport  1534 @Cô»¶À°¡İ£cäã~ˆ'”˜ÖÀx‹Ø9_¡é°[è3ÒÌ”üÜâV”Âb;®¦ze~wX$ÁÁãH@P›<l[0õ:@«qm"ÿ	¬àlk-}	÷šœë¿ˆÂ1cªIÕe.ZîÏ40GÁÙDZ4xt]%"Jå·]N†µ¼ìSé[Ùa3•yxÊKÈî?PùEbçŸ}Sqï¼ş¢¶yüó>µ1×„ñê[4ªHDJ»³[UÛLï«:ë–‡><ã@{¢cî8âFC“Br[<Ô?O]÷~´µdÖz•ñĞÅ0}#HDE•³GÎ®mŒP¼d%Œm‘¼PoøÍı¹Æ“ŠJï}öÍ©P¿=  
+[2020/11/25 10:54:42 406] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 407] transport  1390 is_update  true  
+[2020/11/25 10:54:42 407] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 407] tts_cloud  326  response  
+[2020/11/25 10:54:42 407] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 407] tts_cloud  450  before decode audiolen:  34560  ,ced:  68  ,markinfo:  nil  
+[2020/11/25 10:54:42 408] tts_cloud  739  aud_data:len()=  3294  
+[2020/11/25 10:54:42 408] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 409] transport  1160 build http request.  
+[2020/11/25 10:54:42 409] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fBNQMGSkNFDw7A4XA6CoBE  
+[2020/11/25 10:54:42 411] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 436] tts_cloud  650  u_aul =  223360  audiolen =  223360  
+[2020/11/25 10:54:42 436] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 519] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 520] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3955
+X-Req-Date: 2020/11/25 10:54:42 479
+CL: 3955
+X-Res-Date: 2020/11/25 10:54:42 502
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&ced=99&cver=5%2E0%2E11%2E1086&ofg=1&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fBNQMGSkNFDw7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3728
+
+z“²­eÑã,}C¡ %¯gŠ]ÆŸ5å<“÷åjˆiìsÕèØÒ?–Ş4>æ¤­$ä&U±b&-\ÃHGõßRA‘Ìxğ(¿¡®tY‹†'RÖÓôjjjnNNNNZ<ùiiiiiiinM&ÓÅÁÙÁÙÁÙHBéoîT¤uœœœœœœœtÀ  
+[2020/11/25 10:54:42 520] transport  1534 t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:42 520] transport  1534 BK$ùÉ¿Q…fy‘²|‘ğâ†Boaù–™N­Ÿ8Ù^Ş!Æ#"~¥7²fğzZóHGo|-¥Õ†Şçq\×%P'Eb‡Q–›­±ªh _™
+Íå‰¸IWt”|Bnß'ºzæHSè¼?Çp+HGj¥gHúÙõ­xÒÉ®•…ß~C¶±È;ku óQîa“¨ÚÿÄœíê&"gî„LiÅ½(µÒ«§ÚXCHG0£`­Gh@àIõ¦ÑÕ,R‘¡4Î7Ú7%½ÿ7ƒÙ±Ùí.j–Px'ŒÔ=ŸŞ¥õş$5ÔIYxGóHG3YÃƒ¾Ş‹ÿÚ.@iböŞe³\âÛâ$1ï ç/ºy4c  
+[2020/11/25 10:54:42 520] transport  1534 C[>Îd–uğ.fùpmóIrZÄ@lÛà7èyU¼ï`>V´h°H†Â{Ş,?NÏ6fåt"5·¶)HCCb#HêÃM6íkÈ»rZ¥XV'p)7Åè¦$'1ìúi³Îtè´7Qª^On"TÁñ^g"ú¦Ÿ‹(¼V¢zjohõZB©óz½R¢İÏEqe÷ó6Lúy#G£»
+zÖ"ô>L9ôÔÑ}¤µÿ¤Äp#HD(èV¦zkbÇ	—ùËó^ußÁ×mWOpö´,°ßÉ6öÅÖüB‘Q²º!nNTÇ\Ä46äVU1ØƒH@JŸ¢göË°Ì¾ïR¶²;6fİ ÙÖ¬Åq­NNNIïÕÊ@âêw#ÆeíÙ®„µvöT%ÁØ4‘dsHD»V;î„Â{  
+[2020/11/25 10:54:42 520] transport  1534 ‘GùÙÁÙÁÙ  
+[2020/11/25 10:54:42 521] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 521] transport  1390 is_update  true  
+[2020/11/25 10:54:42 521] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 521] tts_cloud  326  response  
+[2020/11/25 10:54:42 521] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 521] tts_cloud  450  before decode audiolen:  39040  ,ced:  99  ,markinfo:  nil  
+[2020/11/25 10:54:42 522] tts_cloud  739  aud_data:len()=  3721  
+[2020/11/25 10:54:42 522] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 522] transport  1160 build http request.  
+[2020/11/25 10:54:42 522] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^f9UPdPFCgpdA7A4XA6CoBE  
+[2020/11/25 10:54:42 525] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 549] tts_cloud  650  u_aul =  262400  audiolen =  262400  
+[2020/11/25 10:54:42 550] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 555] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:42 556] tts        539  get audio|use cloud  
+[2020/11/25 10:54:42 556] tts_cloud  1157 after decode audiolen:  33280  ,ced:  68  ,markinfo:  nil  
+[2020/11/25 10:54:42 556] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:42 685] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 686] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3411
+X-Req-Date: 2020/11/25 10:54:42 599
+CL: 3411
+X-Res-Date: 2020/11/25 10:54:42 668
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=99&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^f9UPdPFCgpdA7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3184
+
+å%BİvûAœ­-œœœºVÀ  
+[2020/11/25 10:54:42 687] transport  1534 Càõ¾Öú01?·0éÒPÒ.O„¿†(D´T™¤¹\ÃHD(–V jÇp÷Â¼‹İ9‘×y–:¥oÔOP»[ü  
+[2020/11/25 10:54:42 687] transport  1534 y±·qö¡pVP¬AÉ¯áË<>sÍ+Q†aLŠš¦„1@´[Ü–X«‚s£HB.¹DÄÉòúÿQƒş[èL‚ã×é“»ĞÂºfÇªQÖS¾^m“u3šÈšY²¾	İş§D‚ÔmcÍ½àfH4sHG ª0l~ÌİbÊÙäğ5#§Èú #m6'ÊÂ’Š 
+kß7N*-(~“4ÀG$ãd4´+ÕHG0¬¢ÏD%“m9fxmø/ÏâÑPpßĞ#9xNW¹üÌådÿ|QaŒ	_…Ë³ô5g$•ÄğğtÂ”ÃHG0Ì)ÏD5Ğì¬»¢†ÂE`¹¬ÃHb¸?ÂñÕEƒñêñÛ5µbëMˆ›~“4òñÄˆÔtœôÃHD0‹W-ñ9 æŞ“—["6Ò÷Kâc È6[‡s©,ˆØUcËéú[pà÷n¤iÑ~³ÆcGäîsHF2KÖÂ}V¤'î^µI«ğ+f’wÈi]rv[€Ÿ¿É±gÊ×°‘u‚ó~d_ååeYä÷0T\HAÀg€4­KÔ…ƒWşŸw¾×Û™eT¦uŸ
+Òr•¹D{„[¸¡ºÉo7_>Od¼Ù4ÁÕÂÁÙHD øT&-2ÕkÃDÀ£ìË  
+[2020/11/25 10:54:42 687] transport  1534 G ½gÃEÊ=<CM‹ˆl@èó¬;ÒXBÁRÔÇÃ«0øuÉşQ#Ğ?t“5ÆLU€J¥±Ş¥ÀHG ½blF-¯¨I\S¬ìnüáşå™ãVÈ®W›ù¶22¤Ló;wòµÚÌ~“6ÿ56!…ó²MX  
+[2020/11/25 10:54:42 687] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 688] transport  1390 is_update  true  
+[2020/11/25 10:54:42 688] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 688] tts_cloud  326  response  
+[2020/11/25 10:54:42 689] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 689] tts_cloud  450  before decode audiolen:  33280  ,ced:  99  ,markinfo:  nil  
+[2020/11/25 10:54:42 689] tts_cloud  739  aud_data:len()=  3172  
+[2020/11/25 10:54:42 690] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 690] transport  1160 build http request.  
+[2020/11/25 10:54:42 690] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dtNY1KLbobmw7A4XA6CoBE  
+[2020/11/25 10:54:42 694] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 708] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:42 708] tts        539  get audio|use cloud  
+[2020/11/25 10:54:42 709] tts_cloud  1157 after decode audiolen:  33280  ,ced:  68  ,markinfo:  nil  
+[2020/11/25 10:54:42 709] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:42 722] tts_cloud  650  u_aul =  295680  audiolen =  295680  
+[2020/11/25 10:54:42 722] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 770] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 770] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 2371
+X-Req-Date: 2020/11/25 10:54:42 759
+CL: 2371
+X-Res-Date: 2020/11/25 10:54:42 766
+
+----
+CT:text/plain
+CL:127
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=99&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dtNY1KLbobmw7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:2144
+
+®bç=°q8ã<|œ-<AÓBbÂÔè´À84DNNJn9»”¾O[—øá*³õõ:$•¥ÁÆÔ´“HG3XBlÕÆdø2TsYÿ¹måœ
+ğH³Wr†Î«Tü™öù>FBåÄ  
+[2020/11/25 10:54:42 771] transport  1534 1ú
+:)ÆËfú  
+[2020/11/25 10:54:42 771] transport  1534 Ú`gìé¨#sØ¹–â}š*:EÈn¾¬÷ã¸²	0‚°Ë\ú.“  
+[2020/11/25 10:54:42 771] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 771] transport  1390 is_update  true  
+[2020/11/25 10:54:42 771] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 771] tts_cloud  326  response  
+[2020/11/25 10:54:42 771] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 772] tts_cloud  450  before decode audiolen:  22400  ,ced:  99  ,markinfo:  nil  
+[2020/11/25 10:54:42 772] tts_cloud  739  aud_data:len()=  2135  
+[2020/11/25 10:54:42 772] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 772] transport  1160 build http request.  
+[2020/11/25 10:54:42 773] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eFpWJ/P4l06g7A4XA6CoBE  
+[2020/11/25 10:54:42 775] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 787] tts_cloud  650  u_aul =  318080  audiolen =  318080  
+[2020/11/25 10:54:42 788] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 865] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:42 874] tts        539  get audio|use cloud  
+[2020/11/25 10:54:42 878] tts_cloud  1157 after decode audiolen:  34560  ,ced:  68  ,markinfo:  nil  
+[2020/11/25 10:54:42 878] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:42 879] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 880] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3468
+X-Req-Date: 2020/11/25 10:54:42 839
+CL: 3468
+X-Res-Date: 2020/11/25 10:54:42 858
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ced=121&cver=5%2E0%2E11%2E1086&ofg=1&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eFpWJ/P4l06g7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3240
+
+¤¨åñ$­-ôÊÊñºe'Òÿ­Í]‹Ïèœ]½ô9+NNJnNN\tg;YiiiinO3t¹Ù¹ÙÁÙHBéuîT®uœœœœœœœƒtÀgõ.re.NNNNNNNOôYiiiiiiinOÁÙÁÙÁÙÁÙHBéoîTˆuœœœœœœœŠtÀ  
+[2020/11/25 10:54:42 880] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:42 880] transport  1534 Œrğø¹I²À"ğÙö-1³ÆÕ?Oqòã±äüeáİå ¬^NäôB$Å¤¼±äbóHCE_`!e™èˆŒL ”Ìóƒ]ÿY`èx÷³ûé7eGØé3É¤3õYªxÏ>Ê´¨_wÅ2­^ÕÚÃHCI‘s-y®Z?Û­o¶¨òñƒ-ùÉÂäĞW‰m³ÊÛ°u#€µ<Â+~E2¤ÎÉV
+”mp´†D.n#H@I¿VíÂ0gÖN¿„°È79fF¸Î²@¬ö¯İOå"2Sh5·w  
+[2020/11/25 10:54:42 881] transport  1534 HBıŞiÁ
+p^œ¼zMnãwîhpÈ±ˆÜ¿G³ŠLîë¾=¡:Ÿ0«;Óß1^ÿ„Â¤6D5ÕÆµÕóHBöäiÇÆƒP%v•™°T¢ÿUİï¤í£™v'¿4®©²(#9íV™”gæô
+Ù,†™ğÁÌ¦;ÅBõ:¬fOœÈ8lK¦)h6Ìs%4Ç@âë®­ÇÁ’¦­T¼õÕ)¤Ğf–›÷G‚óHBxõ¦ÅÙ§¾â!¾lLOïìŸ˜[sÃƒNÛÑsgR™úù‡-¯gi´Ãöeîúe6Ÿÿv.mv(DóHBâ—o£+Pƒ|›ÏlÏ08»ªÖû(åàAú–5
+²P&"š”k'İ‡¾%_Ç§*Uà6Ç¼_sHBûğ‰eÄûU¯ğm6  
+[2020/11/25 10:54:42 881] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 881] transport  1390 is_update  true  
+[2020/11/25 10:54:42 881] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 882] tts_cloud  326  response  
+[2020/11/25 10:54:42 882] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 882] tts_cloud  450  before decode audiolen:  33920  ,ced:  121  ,markinfo:  nil  
+[2020/11/25 10:54:42 882] tts_cloud  739  aud_data:len()=  3233  
+[2020/11/25 10:54:42 883] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 883] transport  1160 build http request.  
+[2020/11/25 10:54:42 883] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fae70pgLViEQ7A4XA6CoBE  
+[2020/11/25 10:54:42 886] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:42 910] tts_cloud  650  u_aul =  352000  audiolen =  352000  
+[2020/11/25 10:54:42 911] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:42 986] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:42 987] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3348
+X-Req-Date: 2020/11/25 10:54:42 959
+CL: 3348
+X-Res-Date: 2020/11/25 10:54:42 974
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=121&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fae70pgLViEQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3120
+
+]šFóÈ¿ñYC,'ÜåóÄ”Ç2ôN(|küt…~Ÿ™X0ÕçàÒGFvÀh~Œö‚?ôµf†Y£HE¦»{™TƒïOºµòÿ£é/½xÿpŠ˜™îÉÊ±íùôsÌ^¶ùw9×™¾¾ç4f‡¬v”]?$:ÓHE™ÙÒã`hE¡ÅjĞ®ŞÄù€  
+[2020/11/25 10:54:42 987] transport  1534 â©Gİ´;È²Ãw§¦:ÔÛĞ¾Í4ıÙå86­4¶óHC¬5?,–o2\¬€²óñI¥İz2£ë££Êõú·-_³’øBlıqœ;NÏ’x5Mçfu”0³HCÎ7ÿ(¨Œ¾Ë°öıû9WÒºúMÎûÉÎåA	Rc5ú«•èï"CO4œŞL¥LâuÜ7¥if…[N3HDT–Ÿ]f…‚dû¥ÙO@o=nQÍÊ? ãËÏ“Â*¾8…• RîîÎÕ÷ù¥ÆÖ'0NôöƒSHDNó'An—U©ÑôtsU4¸…•AvÀ^æÜÒ\èı#¢9Uû(œl=u÷\şË…|åöFG Ç¤cH@¾óĞ/Iåõ§&\+¼è}ò¡ˆz¦yHÈó®šà”v]¡79;T+9=
+6²¾‘°7/Ôzkû%“H@¾¦µ‘ëÌíÛ?øA†–x/]İUT•n.WY_ó¢Y1ZÉ°	²/”ştÀYÔÂJÅ‚$"ƒHD§ÚJ¢(ı/Š°ğinXê0Öú[ö{òxoF'a˜}„ùI5c’º/y`şêõºÔÔ²bäD$ôÇªsHFªWu.xÇ¡ÙNbÿ?®rì<¬¸@~ w·bIgjBüû uĞF€á (Å`.³t¼ôRy$.†¦ÓHF+~WxË_%­mkÙCh¡ò‚ú‚m,˜÷+Òıy‚Á#“€u»¶Ì=NY|_­Õ)É0S?ædØ¶ò¦#HFæ²2
+d¡ŒB#®Ya¥  
+[2020/11/25 10:54:42 987] transport  1534 bm<æ;é"nµVø   
+[2020/11/25 10:54:42 987] transport  1534 HA–i:X•/>!Àù’˜âÚœïÂËïù	 Ì2$?îc0df®Š*”ŒT:W‚wÏöc„T¹´¬t´¼ù³HA›ÅD•EªtY“ıìÚ€‹˜À¡\tøÌ"õ8 2ÊO$ñ’âà¸…zu…´sUö•Ì^D‚™O{  
+[2020/11/25 10:54:42 987] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:42 988] transport  1390 is_update  true  
+[2020/11/25 10:54:42 988] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:42 988] tts_cloud  326  response  
+[2020/11/25 10:54:42 988] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:42 989] tts_cloud  450  before decode audiolen:  32640  ,ced:  121  ,markinfo:  nil  
+[2020/11/25 10:54:42 989] tts_cloud  739  aud_data:len()=  3111  
+[2020/11/25 10:54:42 989] tts_cloud  686  send fch request  
+[2020/11/25 10:54:42 990] transport  1160 build http request.  
+[2020/11/25 10:54:42 990] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fB5GwxwZ3bqw7A4XA6CoBE  
+[2020/11/25 10:54:42 993] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 017] tts_cloud  650  u_aul =  384640  audiolen =  384640  
+[2020/11/25 10:54:43 017] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 030] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 030] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 031] tts_cloud  1157 after decode audiolen:  39040  ,ced:  99  ,markinfo:  nil  
+[2020/11/25 10:54:43 031] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:43 094] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 095] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3468
+X-Req-Date: 2020/11/25 10:54:43 60
+CL: 3468
+X-Res-Date: 2020/11/25 10:54:43 73
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=128&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fB5GwxwZ3bqw7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3240
+
+ƒTÔ±ˆ{„ºU÷E.9ôĞß6UĞvè6}!?îì$ĞÙôqR½ab½k{~M5ÿ°ö˜XçÀYÁÙHBéîTÀu\ŒœœËVÀgõ.rå.NNNNNNNKtYiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT¾uœœœœœœœtÀ  
+[2020/11/25 10:54:43 095] transport  1534 .NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:43 096] transport  1534 éKæ¾È{ 4P+Êb7Jn&m¥‰\ÜHoTB£œOÄ”$[ÄÂB¤2sHGë=ŸòòÊEhL‚ôöKzcGÄ{§BXŞ»Èı¤n¸)´6ŠÛzú‘-•êüSMµdUuSÍP_97?ÂÃHGó”ŞóäÛ»0óMÇ{û¿†¨r:µ¸Èß¶¥0É¬²€Jdw®O}¥Ô>fÂ0>SHEºÄ5g  
+[2020/11/25 10:54:43 096] transport  1534 BLöÌ<–6±[-Œ.Å~‹xˆÈz|¸jz˜âöÿ•¿¦Ne×ŸÁn‘$$„ÄÈå¢†DêÃHCBLöÌ>–mW±-lŞ¿ê~L‘™H]ÍU@1#ÒWBÎJ{¢ı/Ú²œ9Pk}n’öE$,½æ)Ğ¼ãOTZ÷ã?Ùme“»BÊZ®~:¯U¸ÃYÈH&Ó	¼©ad–Ã[úY±/ƒş>’õo÷Öş;ÆóqG\cHCX’È"a)ŒSâÄ÷çJÍGĞwƒ…÷ÚÏx1Cÿ.N(Å`J	vÉÏÅQ3vç—>Œ7”Ò¥ñ2SHCMã#`•¯‚sjl)x¿şL¶Ê¾÷ğkñ±E*¦ì­Wí&á_Á	o=jÕÍ4Ô¶uæ•…a7vúbóHA–!z`ÉÏ—AÂñPÃ]=‚ÈùHX&c¤àmââpS¾%*Ã?/İnÎÖ´ÃçímÂwcSHA–!z<é‘ÀïPö-ĞÛ@oİ¯M.SæSÑ aC"‰gÃş! òÎÌ%ò°çJ­şG´ãHA#z
+ê3ßç­xâ˜ßÊˆÅnYŒHVxñh„…c’D6ßÃ)kwu}I>NeŠø%a¬¾”ğ£HD(ŠW…>jïÉq%;iÎ\´K{pÅàÀ  
+[2020/11/25 10:54:43 096] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 096] transport  1390 is_update  true  
+[2020/11/25 10:54:43 096] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 097] tts_cloud  326  response  
+[2020/11/25 10:54:43 097] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 097] tts_cloud  450  before decode audiolen:  33920  ,ced:  128  ,markinfo:  nil  
+[2020/11/25 10:54:43 097] tts_cloud  739  aud_data:len()=  3233  
+[2020/11/25 10:54:43 098] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 098] transport  1160 build http request.  
+[2020/11/25 10:54:43 098] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dHbTthJ2G95g7A4XA6CoBE  
+[2020/11/25 10:54:43 101] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 126] tts_cloud  650  u_aul =  418560  audiolen =  418560  
+[2020/11/25 10:54:43 126] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 185] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 190] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 195] tts_cloud  1157 after decode audiolen:  33280  ,ced:  99  ,markinfo:  nil  
+[2020/11/25 10:54:43 195] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:43 195] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 197] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3836
+X-Req-Date: 2020/11/25 10:54:43 159
+CL: 3836
+X-Res-Date: 2020/11/25 10:54:43 175
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=135&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dHbTthJ2G95g7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3608
+
+Ôkºésğh›¸ºàªÔ?.’Íó'&ğ\Ã¾åUïŠw2.Rrq4›#oYµï^O„€Gôæ¾˜YHGê˜6ô„wW}`y<ÜŒgtè–À±t[Ñ¡9NNNNNNA4YiiiiiiinOaÙÁÙÁÙÁÙHBéoîTˆuœœœœœœœ“tÀ  
+[2020/11/25 10:54:43 197] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:43 197] transport  1534 ŸYöòÛYqãÕ€wÜØ°Ê¶O.0´ÔÁlÙp«KA~’æq÷¹w[wW…iCH@4éĞÍyî _Ş™­Ü.rm'ÆÕHHËØzpõ=ûƒ˜6Àµ!32¾Î½‘“^’€Íw|­“Fz?‘ösHAºá&¯~c,NW|à\q<éÏYBå…rãö¼áˆfOÈzDA±¯t×x¿9~‘îÕÒLõSirãHD·?¾s+Ë–9èlYïÀ›²!‰‰ö¼Ïïÿ­ ‚e •#¶4Ikm*‘Ş”n4N4ü°F=“H@EÂP@ê¥ìˆ7¨‹ÑÃnMsy¨,¶ã9nù¼Xs"aØ}8h7™\%«‡¾’æP-f«©dçv1ÃHDEß³òÿ,k,¨“3ñ8Ø¡'¢lÓçùã~›ş‚òç»+q”1¾=’l“Å( @Kú“z_óHD^±·A®x0í@¡”[.«kå¡:}¡6Äÿ,~„M •z;kt'õ×_Œ’"ØçBtÀ)Ï0Ç”3HA²ÙòùY£à€ÅEs†pä†¢ÔŠº­ÁKöã>ÎG‚sôP:Ûw`Ÿæ-gÎÕ™&=É&â%êCHCì#}¤s?»MüÌ›qò¸DZ«’Ø¤]>I]+[÷øü´×Eü_au)³‚ªÎµUçO™¹uuAÂCHGğéÔÚ vÚËµB—|O3GnĞVùÏG+°762¾  
+[2020/11/25 10:54:43 197] transport  1534 HD»Aû/Bæ¬l,Ğ¾Ì‚ùİÎı0@H4hØrLßôó™¾Rb¿¾ŞÚ¦ş˜Î‘t¹>¤·ñ4Ø°+ÕÃHD·@Îby[Øl‘Ü[ê~az–ÇÖP›è'±­dè€î`–8ÄNBT‰÷]“9ÇtÁFÄŞƒ‡àÖpç·É,6ÎgÍ¬È+ª!üVA\¯cƒ[öeé?5Çyè-–C^1Óñ×rs’ôyİ1ØÆ¬ô²YHGÛ0š.7å|±ûèÙ–]çä‰u€¯·Ëİáèèúss  
+[2020/11/25 10:54:43 198] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 198] transport  1390 is_update  true  
+[2020/11/25 10:54:43 198] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 198] tts_cloud  326  response  
+[2020/11/25 10:54:43 199] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 199] tts_cloud  450  before decode audiolen:  37760  ,ced:  135  ,markinfo:  nil  
+[2020/11/25 10:54:43 199] tts_cloud  739  aud_data:len()=  3599  
+[2020/11/25 10:54:43 200] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 200] transport  1160 build http request.  
+[2020/11/25 10:54:43 200] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dLcmzB7jLghQ7A4XA6CoBE  
+[2020/11/25 10:54:43 203] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 230] tts_cloud  650  u_aul =  456320  audiolen =  456320  
+[2020/11/25 10:54:43 230] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 281] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 281] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 907
+X-Req-Date: 2020/11/25 10:54:43 260
+CL: 907
+X-Res-Date: 2020/11/25 10:54:43 263
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=135&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dLcmzB7jLghQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:680
+
+Û²Œ«¥òÏZ#ÎƒTmt•Û‹#b„	C4œÕCÚÊq£­´³Ç{ü?2îæ¦ú´5åôjeäÄHB?ÔW@AæEPÓa+;œßîÉfƒÙËt/Œ0¬ÀÚD³d‡ŠSv+Œ‘gwşÑŒ¤(ÇĞ×tÆÌ•º#HG3uàO¦+åí+LÄ^êƒå¸‡Õ–Jh/{j£¹ØS“d„„s¯ãÆ²á‰.…³3–ºÔyut¥Ä3HG3=‰à5Š+?ñ6ó¬-Te‘¶@²z¯$ö2šG¡c¼0!6pî:õÎİ¾tRÄ¼øŠö§áó°‹à6Z¿¶ë\­‡×Õ¢FkÚšÈ%õdÃÿ-ê5ghØC5…eîI¿îÏdcÆYaïÂSHD+ôD`Üâ/?c"-LSôÚa,XÔvXrdP‘‘““t~œ	»€7ÚÕîÍTqú$ö˜ÂÂ%HD;šEG7‘¦•QÃìÍÕä°ÛúKò¡$Ûıƒìæ²:JéÍD)Ÿ}•umnÏdÆXô©Æôâ4Å£HD;šB§5Ší-ëS»µ±;M$ÄÙig“‹“¸  
+[2020/11/25 10:54:43 282] transport  1534 º¬„c ¶ÁÙ‚Ï}aißöÜŞéU—ãf	ØwqÇwÁÓ3  
+[2020/11/25 10:54:43 282] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 282] transport  1390 is_update  true  
+[2020/11/25 10:54:43 282] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 282] tts_cloud  326  response  
+[2020/11/25 10:54:43 282] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 283] tts_cloud  450  before decode audiolen:  7040  ,ced:  135  ,markinfo:  nil  
+[2020/11/25 10:54:43 283] tts_cloud  739  aud_data:len()=  671  
+[2020/11/25 10:54:43 283] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 283] transport  1160 build http request.  
+[2020/11/25 10:54:43 284] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fIOwZfls3fuQ7A4XA6CoBE  
+[2020/11/25 10:54:43 285] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 290] tts_cloud  650  u_aul =  463360  audiolen =  463360  
+[2020/11/25 10:54:43 290] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 347] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 347] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 347] tts_cloud  1157 after decode audiolen:  22400  ,ced:  99  ,markinfo:  nil  
+[2020/11/25 10:54:43 347] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:43 410] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 411] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3716
+X-Req-Date: 2020/11/25 10:54:43 363
+CL: 3716
+X-Res-Date: 2020/11/25 10:54:43 383
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=160&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fIOwZfls3fuQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3488
+
+dîğ¹ÍÇä`²_ìŞĞ­-!ˆEm‘”˜«weiÍWİÿ\rÕıíËGd9i²Î‡]÷ÁEÿåõdGHGì²6õl3¤‰Ğ¼œŒLÌ×tĞç!u)ï{t:NNNNNNND´YiiiiiiinOaÙÁÙÁÙÁÙHBéoîTÌuœœœœœœtÀ  
+[2020/11/25 10:54:43 412] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:43 412] transport  1534 rÀxåaHïÃtùóÇSßš’gní×´Ç-çù†.›OfYôÁÙÂÁÙHD4ÉÂ/©O«êÜòÒÉ]z‚ÍÈ­ø0Q²óC,æ^–>CÏO‰@íŸğÌÁÕäP¬`Ö™7¢óHB>‚G-Ûš1|W»vËz©  
+[2020/11/25 10:54:43 412] transport  1534 HD(¼V¡yk&…î&r*—íuX´Œı;ºó¤µ=öÏª
+fàU˜t;]‡)hnLeÆGtŸ"$XXtÄ÷HD ÀV í)RWGr€šòÚ÷ î€è¯÷#:àH.ößCÜjèL")%UIƒM¾XÁØ$Z9»;p	(šW›²~À”ê›ÄšóójÇS%ĞVµAÊô?
+zçCŠğ9ÕÍ\'tÌ¸®NÄNcš‚ÄfdÔwdSHDû|æ(´ÛÕ<¶tV´Áæ6êXÀ7¿ˆ¢ª-ò""éÍ¶©xl5‘úœ.6¤°XÅÁØM%3ÄSHGg(–e'Ç{©lgúí«;F³‘‡À¦ô\vÕ#B}:Ä„ÜèA1©£Ñ›¾¥$d+t<¦×æ&SúƒHGl_LDR¶§ J+BqÛÏ¥Å6ÄUld¥È1¢	·ÄƒÄâˆÕÅ×%©>¦…lgâÏ“û.üd´SHB&øWDÉ¦®¥…AÛìş0O3ÿ^ì{Ó­ W&ïÜr’×LfÕ›÷’ˆ8%‡<9e[Ÿgs\7TtSHG0œ6ì|]iù6ç¥eSõ[n¸®'ö4Ò(Äõßr’q%Bœ×ŸÏ{.“4qìÔ¶Ô©tgóHG0¬¢ÏD½ šk\;l Ìá2,Öp¸Qñj=²jmÒqkş¨r®³ôf‹äN|äùûtYÖSHG0Ì+Dá\><x©#ÛYbÑšC+Ÿ¹câ¸"ë¾¸9ç0pÇë±}øÒj.%¾È·-r€ƒoáäodƒHD0‹PñI¨ÎM3û9 ¶Ò·ë}·Ø_ZĞv[ù^~t¦˜uPG‘fkw•ô3c”¿g%˜4öCHF2KÖİxL¥ùl\ğ¹.:VÃ`K¶	åeVe6T2gÕ	Ö¡Øq®e>öÅaÆôÖ™01HAÀg€DjÅÆœ+«^ÿĞ÷¢´Ğ´àWa|}•Î¨¸ı(æBDIEXûTÚR½Ù.Odd™Ä¹Ù)Øc  
+[2020/11/25 10:54:43 412] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 412] transport  1390 is_update  true  
+[2020/11/25 10:54:43 413] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 413] tts_cloud  326  response  
+[2020/11/25 10:54:43 413] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 413] tts_cloud  450  before decode audiolen:  36480  ,ced:  160  ,markinfo:  nil  
+[2020/11/25 10:54:43 414] tts_cloud  739  aud_data:len()=  3477  
+[2020/11/25 10:54:43 414] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 414] transport  1160 build http request.  
+[2020/11/25 10:54:43 415] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^d5eNAxDacp4w7A4XA6CoBE  
+[2020/11/25 10:54:43 417] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 444] tts_cloud  650  u_aul =  499840  audiolen =  499840  
+[2020/11/25 10:54:43 444] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 499] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 510] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 512] tts_cloud  1157 after decode audiolen:  33920  ,ced:  121  ,markinfo:  nil  
+[2020/11/25 10:54:43 512] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:43 512] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 513] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 4260
+X-Req-Date: 2020/11/25 10:54:43 484
+CL: 4260
+X-Res-Date: 2020/11/25 10:54:43 496
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=160&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^d5eNAxDacp4w7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:4032
+
+S-²ƒÉ¬,©iGJšpK	—&6ùïEö·à¸®u¾?>_(VÌû)AêUIˆ}„ÁÙäñÙZ0çşóHFğæ¥E–~ÄPbz?µõ…y‹ÛH	ÉÏô(6İWv‹#§º’"Ÿ˜)há|‘ò®  
+[2020/11/25 10:54:43 513] transport  1534 Æ8 {H3ËÑ³!!+q‰n“6À§vï¦  
+[2020/11/25 10:54:43 514] transport  1534 uš}‰@í®4p¸p™(Š¶®¥í†·:ypÖä)—eu®g„×Tâiô—\“H@JOb`…µ¼œò±ì~I$ò¯Ç@‡UCñ£¹¼dÅŸ—™HÍg\ëË>Ï´ñØÄì¬JñÂ¯M#H@Jô)­h®&[0<.Nâ»åoÑ­ù“ÈÖ/}Ì¨ù¶†FZñv¥2{qiÕ{>ÏµĞ>},¹åÍãH@Z„§î\Úíf8½Wì-ÀuoC¶  
+[2020/11/25 10:54:43 514] transport  1534 HCZ~ñ#dm©X10V/üÅ]P1«ú§Õ0sëf?'£%&.ñoíğëĞ·3êökû&À+pIà¡şSHC"dê8áí©h.ü‹pÅ¸¸™K€°'©òD‹„‚rVc¿»A<MoŞ¡j'û`&C;Ñgco;špBd–~D«ŒÇ»Û|;\|–C{zÏÆåsÅ¸A,rjy67ÆŠ]MY¾Y;÷ƒ*0¹x0H.cHG3<f`Ë™SÜŒA!w—;äp6ß3µxñ¶ì’˜JOz¿=»ÎqØ‘pö-dşé‡ä  
+[2020/11/25 10:54:43 514] transport  1534 Ô¾™ä)ÙAÙ´ÇHA#{  
+[2020/11/25 10:54:43 514] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 514] transport  1390 is_update  true  
+[2020/11/25 10:54:43 515] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 515] tts_cloud  326  response  
+[2020/11/25 10:54:43 515] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 515] tts_cloud  450  before decode audiolen:  42240  ,ced:  160  ,markinfo:  nil  
+[2020/11/25 10:54:43 515] tts_cloud  739  aud_data:len()=  4026  
+[2020/11/25 10:54:43 515] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 516] transport  1160 build http request.  
+[2020/11/25 10:54:43 516] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^duH9FzaN5JwQ7A4XA6CoBE  
+[2020/11/25 10:54:43 518] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 545] tts_cloud  650  u_aul =  542080  audiolen =  542080  
+[2020/11/25 10:54:43 545] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 609] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 610] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3532
+X-Req-Date: 2020/11/25 10:54:43 579
+CL: 3532
+X-Res-Date: 2020/11/25 10:54:43 599
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=182&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^duH9FzaN5JwQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3304
+
+?ôí	FÖâ$:Æ|lL†áŞ÷Wa·ÕH@~åyÑÎÏÕ'ıÔ5~ĞN@öµÏ~MT™åu†Vf™ºxsHBéîT]ñvt{šlÀ(tîÔşrüt.NNNNNNNA|ÙiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT¤uœœœœœœœ‹tÀ  
+[2020/11/25 10:54:43 610] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:43 611] transport  1534 ¨Ş*ò™Eÿ á‘‚$­w  
+[2020/11/25 10:54:43 611] transport  1534 HA•ı0–ÓØAÛyL¼Ã}a¸+Å¡88°Ãêro>Èİ¦Ÿ•á3µkÈĞis>“JrV{’G“¦VHA„ƒ>Á`—h'ØA¶S'Ø~ƒ)qàZÔ„uñÅÓûaÿä–¨.t¡üõgšÎ‘†Ô2õŸ¾×›‚Eq/"Sâc*N_œ\ˆ'ÿ};Ècİ Zî2Lrïh:ôùz7Ayeİmòî‘†ø\‡^Bæ-nW	Ò3HCU·ucm)÷æøÚBÌ·ÈQ¤W‡£ûÏJ²Låg¥-©œ#Ww·Ny3~TN‘VÂïtlÄfõõzóH@WËBcmÓYY<°.°M‰ïÂFzÍúÖ#åIh%’{(¶3ÈÊÏò‘.“øä™ğTm(EÀmóHE£5c‚üj…»³ƒœ.);xKdÄóÖH@{"ï9¿éOÛ‹Q>M^°Å7C4˜ŠçôyÔ%'ö5HG ‹æ¡C0y‡ûûÛó‰>kT­8¨+…jnY«°Æ”áKU$¿¨´3l1Ş«„Åä¹ÙÆ©ÇãHG(š¥Í!òOUµ˜¥h«CĞcÏgoFéï€t)B>O×6u•Ü¥×²)šî$)yäÂÔ¾U²ãH@+¸Cdät˜9÷íØ•Âñ	=ôèn8÷ƒˆç M÷—ßrS:)ç¡yP˜€gz>õ1ÙÔ˜ÅbzóHE²V‚²ñ‹›@ÂœÍìâ£XÎ ;¼#·ôù}¡3·¨—Wğ††+An¿/~NõV‹ÁóôÄ­s  
+[2020/11/25 10:54:43 611] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 611] transport  1390 is_update  true  
+[2020/11/25 10:54:43 612] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 612] tts_cloud  326  response  
+[2020/11/25 10:54:43 612] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 612] tts_cloud  450  before decode audiolen:  34560  ,ced:  182  ,markinfo:  nil  
+[2020/11/25 10:54:43 612] tts_cloud  739  aud_data:len()=  3294  
+[2020/11/25 10:54:43 613] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 613] transport  1160 build http request.  
+[2020/11/25 10:54:43 614] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^frQGp1/Uga8Q7A4XA6CoBE  
+[2020/11/25 10:54:43 616] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 640] tts_cloud  650  u_aul =  576640  audiolen =  576640  
+[2020/11/25 10:54:43 641] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 663] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 664] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 664] tts_cloud  1157 after decode audiolen:  32640  ,ced:  121  ,markinfo:  nil  
+[2020/11/25 10:54:43 664] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:43 728] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 729] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3596
+X-Req-Date: 2020/11/25 10:54:43 699
+CL: 3596
+X-Res-Date: 2020/11/25 10:54:43 710
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=182&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^frQGp1/Uga8Q7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3368
+
+>°väš!‡üH%ÑBBÅyÑ  
+[2020/11/25 10:54:43 730] transport  1534 â,ÑÆ¥éå­W"èÁˆÿØ
+Î'ô¹4Tk$pöHDL¿²j©ÈL ÓE.DäÉ&9“øxø¼ãÒë„·9°‹Î31è±'”9ü…†ô¾µ&ú ãHFó ŒR†çµøß‘¿»`År€n2ã‰&¾hàbõ€â*&‘(BigXõÇK	Ï¥QuõyÚÅ'tÂÇsHFX…ÖÃY>Ê& ¡yÒö@â©KrP|2÷èå?ÛÙå“vNzI  
+[2020/11/25 10:54:43 730] transport  1534 ÒYäás÷ïøCU±äÑ2ºº;kıÕNğÅ…­»N×@EÄ°µ<²ƒHA0ÓÌÿ–ô+ˆìOt)í·‰­3Ãs7£á sZ¯ü±öK)Q©k|Úªn ·´i^}˜c$¶#HC¹ö´íe]œY¶g¸?ılµ]¬  
+[2020/11/25 10:54:43 730] transport  1534 HE§òzx53kñ«bĞœ•móê9ÜÚÈ‡^«ŠÖšp}O¡Ö²Ê*o®yA^ç…_–iFQig~…3HE©ù)}øe£ø3À\ëì²óËu¥v;áªöì9¦8-º2†.búY38U4ØŞÍ÷6z†`0'“ˆ—õ]a‘Î  
+[2020/11/25 10:54:43 730] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 730] transport  1390 is_update  true  
+[2020/11/25 10:54:43 731] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 731] tts_cloud  326  response  
+[2020/11/25 10:54:43 731] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 731] tts_cloud  450  before decode audiolen:  35200  ,ced:  182  ,markinfo:  nil  
+[2020/11/25 10:54:43 731] tts_cloud  739  aud_data:len()=  3355  
+[2020/11/25 10:54:43 732] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 732] transport  1160 build http request.  
+[2020/11/25 10:54:43 733] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dzw823ry/t6w7A4XA6CoBE  
+[2020/11/25 10:54:43 735] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 760] tts_cloud  650  u_aul =  611840  audiolen =  611840  
+[2020/11/25 10:54:43 760] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 816] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 816] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 816] tts_cloud  1157 after decode audiolen:  33920  ,ced:  128  ,markinfo:  nil  
+[2020/11/25 10:54:43 816] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:43 859] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 860] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3956
+X-Req-Date: 2020/11/25 10:54:43 819
+CL: 3956
+X-Res-Date: 2020/11/25 10:54:43 835
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=192&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dzw823ry/t6w7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3728
+
+=Ìüc„ô¹=ÄŸÜ»sfŞµ§	“N&3Àty*ìOµ8X^Y4rk{{{yiinO+BÁÙÁÙHBéîT¥œœœœœœœtÀPõ¸9ê3t.NNNNNNNL´YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîTuœœœœœœœ‰tÀ  
+[2020/11/25 10:54:43 861] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:43 861] transport  1534 ]G8.ï8±p‚÷Ôæ†Ù¢|ô:«rİIÀ²š¼m<–àÎOe¨$²BøUx_ãHGçô×=|
+X¬œ1œ+WïEìKÇĞQlSÒjí5ßboû0‡'‡cƒ|óØşç5ÁÜT<æ+ËK†+€sHCZ°cÇÄJŒl5ëĞG@"¤Ã  
+[2020/11/25 10:54:43 861] transport  1534 H@3›A­âYàdñÜì¹ëä¯Ãh<|P  
+[2020/11/25 10:54:43 861] transport  1534 dÂô>Ô´ôT½˜Ã  
+[2020/11/25 10:54:43 862] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 862] transport  1390 is_update  true  
+[2020/11/25 10:54:43 862] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 862] tts_cloud  326  response  
+[2020/11/25 10:54:43 862] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 863] tts_cloud  450  before decode audiolen:  39040  ,ced:  192  ,markinfo:  nil  
+[2020/11/25 10:54:43 863] tts_cloud  739  aud_data:len()=  3721  
+[2020/11/25 10:54:43 863] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 864] transport  1160 build http request.  
+[2020/11/25 10:54:43 864] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dptFmdfLe72w7A4XA6CoBE  
+[2020/11/25 10:54:43 867] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 896] tts_cloud  650  u_aul =  650880  audiolen =  650880  
+[2020/11/25 10:54:43 896] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:43 974] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:43 975] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3596
+X-Req-Date: 2020/11/25 10:54:43 940
+CL: 3596
+X-Res-Date: 2020/11/25 10:54:43 955
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=199&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dptFmdfLe72w7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3368
+
+Ç¸¯¯-<Øõ2€ªÌvœµÍĞITéP(
+1¥Ã8¥#F~(´p££©Fjj±®Lt¨UÁÕä™uñÇãHGú}ÕšwıvdÇçVÈÓfŸ@É`4tå.^OşNNNNF4YiiiiiiinO¾YÁÙÁÙÁÙHBéoîTĞuœœœœœœtÀ  
+[2020/11/25 10:54:43 975] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:43 975] transport  1534 SMP%gÓBkû¢ë”–'Àªò¶qæÂÙ-uô«ô7†G>ÿfşß6uÀEåsú£HBofš:òR¢v€ãyû}
+_4ñÄŒï±Ù‹¡V&šAĞA•®›+\*×E.ÿÔ`'‚Î-µp¶k3HBò—ŞÛ+ŸûßÉdÎÒUsôÑ¿[ÈC±¼3³b!õ'#Ï­§™œ+£eŞÿ}¥r]euŠH“HDrG¢°ÀşRÆ)Cëë¥"–&óçY¸¡wCH$æ¿«a|”·d>ÿ…¬h5æÀ¼­1Éi“HD¦7åú_—ëód€Ø3ÀO1²ƒ‚n‹mé¾š_Ó­‹èôğ‰»¬2‹I'.€>4÷wx  
+[2020/11/25 10:54:43 975] transport  1534 HD.ï#¢!HP74?»ÑwF8rr«UœµyÍ8¹’™—™vw”AÉ4Ãöcöƒb$ŸÚ„Ò4­ÖSHD"è¤Cqºá€Ÿ©IL9q+Â´Ó5†¸vû¹ïâ[g êu0+ÿ!şJA|Cş„Â›¤™å¥â¿ö Ú"è“¬~¾=µ¡Ù¿šh‹ZòCS²B_ºC¨6yl›·T•ê8–O1!Ñòî„NMUàFµ»$—HD+ÏQŒzö$5ü\*İ—ÁSıgíÿğd–½NŒb6CFE‰ûaÓÚN‘t·‰E–nægl#HE²W+g¿|LhmÓ5»®}Mcœ¢n­ŒÈ0ã|¤=ŸºŒ,rfçZWj¼{3NTVª„Ç\t‰$m>CHE²W  
+[2020/11/25 10:54:43 975] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:43 975] transport  1390 is_update  true  
+[2020/11/25 10:54:43 976] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:43 976] tts_cloud  326  response  
+[2020/11/25 10:54:43 976] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:43 976] tts_cloud  450  before decode audiolen:  35200  ,ced:  199  ,markinfo:  nil  
+[2020/11/25 10:54:43 976] tts_cloud  739  aud_data:len()=  3355  
+[2020/11/25 10:54:43 977] tts_cloud  686  send fch request  
+[2020/11/25 10:54:43 977] transport  1160 build http request.  
+[2020/11/25 10:54:43 977] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fyu6ImKIYSwA7A4XA6CoBE  
+[2020/11/25 10:54:43 979] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:43 980] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:43 981] tts        539  get audio|use cloud  
+[2020/11/25 10:54:43 981] tts_cloud  1157 after decode audiolen:  37760  ,ced:  135  ,markinfo:  nil  
+[2020/11/25 10:54:43 981] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 001] tts_cloud  650  u_aul =  686080  audiolen =  686080  
+[2020/11/25 10:54:44 001] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 072] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 073] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 1516
+X-Req-Date: 2020/11/25 10:54:44 59
+CL: 1516
+X-Res-Date: 2020/11/25 10:54:44 64
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ced=199&cver=5%2E0%2E11%2E1086&ofg=1&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fyu6ImKIYSwA7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:1288
+
+{|PwÇ]7Ë)I PÏğ“bÕh(3Âóu¦éæuIüxGıÕêXI±|.t6zÄAÙÁØ$²¦CHC¹¿÷~­İKÙòªŸá‚ó¯?ÃÅĞÎFb˜gvl 	eèûjÇõ4fÇäSş4oÄ„¹CHE¦¬9¬e’ä1nüë };û@lıK›·±Ïf9­e$‹Š;8g
+.4P`d½DDñ”½HC~ä"l²‡§Şìõ†Àhx ‰.ª}âJ)r«Å©Ş-'WÛÃßOÔ0ámLÄ]ôÄÄby÷b<Ñ¹¤ÄŸÓETK„lm)|Ö«Ùfü/r‘–xşsÖ»¸5ÑÚ:åKE6¯©ÔâÎş|æÁßæŞ¥ŸEõÖ9ãHG$™´EzÏ¥?„MÂ9+êoT]˜Fz†¡Àf+^ljzÙp©Ûş!ğ¾7(dÂ.1vªÆId£HFæ£Û;Åÿ¨ûÜ»Óc+±c9ˆ~QÔ|–W§©JUö·¢Q^U„1î~ğD÷,ôÔvvp£HGf7Üåšfµ³ˆg«WÚÓË‚Şq¹t|'vwÎ6‹ŞÒñÜÁ™ÇiÛ¦èÖn~÷ÓÜ‡UW$½GHHCo$%$û)E+o]^‚s˜@A²²8…%fy×1Ë’+¤Ec  
+[2020/11/25 10:54:44 073] transport  1534 ÃVä´&–\û«ğ+W[Eğ.¤¼´²ôÁÂDÄG³HB?ÔW@ú?µÙÛ#eèõ[T\syˆCqĞ"û	Š.`<¶N3,õø³50‰ş[Vc½í©äHG3uàìÕáó$=]lP'ëE¸‡Ğãpdlöb°ŞˆÂ_O®/_^·UşÑÄö„ôAeäÂ™cHG3=@5›kÓ³o‰"EiÔâÂ˜¯Øcés¤”èäÄˆ…qs¯<5Öª'2NÚÄşÊôAÑäéÇTÅ„Uú7HG3=ç06óh6?Âö«V59ÂÀf20•˜À„W\qN©‚3aq.J_yH±—^Ï6ÂT!ó¤Ii¤ü‡sHD;šEG6^ÙhpÎNîŒÕÉˆ°^{ø/$ÈÖêU  
+[2020/11/25 10:54:44 074] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 074] transport  1390 is_update  true  
+[2020/11/25 10:54:44 074] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 074] tts_cloud  326  response  
+[2020/11/25 10:54:44 075] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 075] tts_cloud  450  before decode audiolen:  13440  ,ced:  199  ,markinfo:  nil  
+[2020/11/25 10:54:44 075] tts_cloud  739  aud_data:len()=  1281  
+[2020/11/25 10:54:44 075] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 076] transport  1160 build http request.  
+[2020/11/25 10:54:44 076] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dTk8tP2sMxJA7A4XA6CoBE  
+[2020/11/25 10:54:44 079] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 089] tts_cloud  650  u_aul =  699520  audiolen =  699520  
+[2020/11/25 10:54:44 089] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 133] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:44 133] tts        539  get audio|use cloud  
+[2020/11/25 10:54:44 133] tts_cloud  1157 after decode audiolen:  7040  ,ced:  135  ,markinfo:  nil  
+[2020/11/25 10:54:44 134] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 170] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 171] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3412
+X-Req-Date: 2020/11/25 10:54:44 139
+CL: 3412
+X-Res-Date: 2020/11/25 10:54:44 158
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=224&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dTk8tP2sMxJA7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3184
+
+lÜ?²™«$¤[úÀ1ÛÑîóg!ÿLó±»ì1e9–U‹".Ytz7iio___^O6qÅw…ÙòÁÙHBéîTÒuLœÁœ­œœŒtÀù˜§ğ\8êqå.NNNNNNNH4YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîTŠuœœœœœœœŠtÀ  
+[2020/11/25 10:54:44 171] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:44 172] transport  1534 )6D/8ûWcXİ8
+b…%®"JnİÄ=‡){†‹heÚdî4`Ï5}´õöşôDsHD¬š;Œå_å­ş”#ê/ëÌøÈõ/X™¡¦S‰
+Ÿİc•LÖ
+k'Çş­–xDwStgˆcÀgsHD õÖÄŒ;ã|u@ğÒë{0‡æm
+uÕ¯£ÆuR/Nt m›X2‹çÅî¬Æ@†VÖÁpÓàÃHD ´R$‡<Üš°ºNqş1¸Á’P¿f!·økÈE†E+0˜?i>ùĞ1¤ng`%¡5`6°‡w”ƒHC@“Š#]0õìÃ-\Bİö	xÖl	«>õÆ!ñeàÌæEÉ5znQ––«OD«k§¬SHC@“wãXÖk»)^È?‹İÄŠÎ®¹N˜`¬ÿhÇº$ëM:2™ZYItó>’‘µğÜé­Ï ˆœÓHC@“¶ÌX[_Ûx_¬we‚µº^¢Q uó¾m—J•h%ñ–5×c’'8Ç%„´E $Ô´•ãHCD·B,ëg$Î±ÃÑÛqšühÿãÛÿ‹öÃş>Y Õú1şÆs]nÕ”ûvyú&k!åÇ”sHCYƒIç~ïÛB±+¿Âs;Ì‡£à`X:—aœ1:ônz\üÿ°
+ÈñĞ~p¾Ì_Ìfu?—  
+[2020/11/25 10:54:44 172] transport  1534 HG ‹¥LxÕùØl5œFû®r›NšËˆrç£­–Òe¶w7C~5A%=Åü~„R9¥´&\Ê£HG0¬£ÏMÑ+-Å¼M-BÇPÓğ¾±‘¯å-Ü ‰kQJ…Ñ÷2Bã>³ôæz¤³Ç´Ğ<½šÖã2§h´=Gye»(.¹ùhìÑªTÙS/úC-dùâÿÇsfÛIÓ5…*ëÎ³ôb{äo ô÷ØñãHGãl¨MÙ¸m-öˆ€ØvSš¥O}#½?mš,7’›¶Ssqd®&
+NsH|³ô9÷ä±à”\¤ğ0#HD·!%Uøš+©Ê!Âhìˆ˜ÕHßr:8	%ù ?³9(†<şÓ:+4>KäQõ¤éå„ÇiÓHA¦«ÑL×hóƒÂiïÆ¨•u\¡†O¸m<fß/ô£T•/Õ’Áß9\^ëôMğkó½o®MÆ3HCÌ  
+[2020/11/25 10:54:44 172] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 172] transport  1390 is_update  true  
+[2020/11/25 10:54:44 173] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 173] tts_cloud  326  response  
+[2020/11/25 10:54:44 173] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 173] tts_cloud  450  before decode audiolen:  33280  ,ced:  224  ,markinfo:  nil  
+[2020/11/25 10:54:44 173] tts_cloud  739  aud_data:len()=  3172  
+[2020/11/25 10:54:44 174] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 174] transport  1160 build http request.  
+[2020/11/25 10:54:44 174] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^citomywckojQ7A4XA6CoBE  
+[2020/11/25 10:54:44 177] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 201] tts_cloud  650  u_aul =  732800  audiolen =  732800  
+[2020/11/25 10:54:44 201] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 267] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 268] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3412
+X-Req-Date: 2020/11/25 10:54:44 239
+CL: 3412
+X-Res-Date: 2020/11/25 10:54:44 253
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=224&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^citomywckojQ7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3184
+
+’zš×QŸò³ÙÈã\¹¯Üğó{tÛtX·ØRğ7ä«%êYR®·VdÓ²)=ìrdQ>O4Â$»12V£SHE°ÄßÿáÈ”RâßòiØ¼«R3@Y¤Îâu%mR–C í«IQx:~O4Ò|dU=ôeTÅzÆSHGø]+yûæìÅ®1o¬KÖs©‰Ç…8íµÈuzªæ¥¯±"SŸ<"_8í>LÅt”uoö”GãHFşÔj`´|Ãó5`O–KAùˆMmº*¨59KJüvYé_ıÚ¸—íİ”qÔU&ÒpÕÛÇæ¥
+Ä{×]†óN÷–è+‡_ĞhÏ¡ï´ˆ¶èˆZIì§e‡1ÜÒ9Í†`ÚÙIwNp²]ğ^öÓìg[^“HG`tVejzÂáü–ò|"Ñ«ã%‹MÇğ™¥ow¢›gÃûD'„™Zk[zeÍÎµå5õ<„w&tÜãHFú—EÄcggUé··ÁôƒñéQr½—ØŸs­•—^¦GœŸƒø>ş§v>§GŸÇÓuwÙ£HB6Ïv‚æøœ"ÎR|bfuuUv89AÚ\tˆ\Ñ-ˆ‹›ú^Œ‡yp/:¡ÅÈ­³°\HG0§|®™Ğ®>#e‹lƒxIÄ{“‰¨CxÓ(ÈŸ²roÒa1ß?QÒ¿^“4\ôd#r4»¤äÅƒHG0¬£DÜ‡{MÖvÖıµû)™5¯Ô‡vxQ*4õ¾ÒZslàZ#	Ş	q
+[2020/11/25 10:54:44 268] transport  1534 •'v˜~İÛ\ØĞM^/·û“4:åÄYÔÔ¢ô¹ı3HD0œÑ,ñ:ÈƒßĞõõğ‹P½nvÛÒˆ6[€ü¸G¨–™R#¿/›KYgo_^4J[›à\2÷¥›ğ£HAÀg|Ë=¹éĞ}!«ğV'fz‰tÉøS•¹†~S¨rwÅ×%Z&*(d)äaU±ÆtAäÃHD ªv€rnŸÉ‹÷éãÚÊXo©Â”s>6‹Tx¹ÂõkÆ‰B³Âa®í¾L$ÁØ”ÂÖ¸t]5ãHG0‹   
+[2020/11/25 10:54:44 269] transport  1534 [İ+Ø®µ™¼=8é\±¥0A9É.¬t­}îÆò¿’ÄANŞUTä5Æu¤,$¶º#HGi¾/f.ùyÅ)¼ö¶³zsØÔ™–èÿèı‘ï*Ïœ[z¾Â„J‘ \ŒÆ´>|„Dv$éáÒV#½Ä™sHGc-Àl¢¸§V!×oQ‘sÁ‚W¸Ü  
+[2020/11/25 10:54:44 269] transport  1534 HA¢Fâš[kŒEu÷òœa#úa®©a'•8ãJ<—Rw=4@Õ{T0›ŞéU5„+œÄÇ¿À­sHC
+ì%íA¾ûEl\§”yšnµixæH#ùSúZrJL`Ø6RÄrj'keëÀî’ô¾I±üTB ¨E>±t5	¶â"CNXc  
+[2020/11/25 10:54:44 269] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 269] transport  1390 is_update  true  
+[2020/11/25 10:54:44 269] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 269] tts_cloud  326  response  
+[2020/11/25 10:54:44 270] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 270] tts_cloud  450  before decode audiolen:  33280  ,ced:  224  ,markinfo:  nil  
+[2020/11/25 10:54:44 270] tts_cloud  739  aud_data:len()=  3172  
+[2020/11/25 10:54:44 270] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 271] transport  1160 build http request.  
+[2020/11/25 10:54:44 271] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fL^Lz3N5Jfow7A4XA6CoBE  
+[2020/11/25 10:54:44 273] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 285] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:44 285] tts        539  get audio|use cloud  
+[2020/11/25 10:54:44 285] tts_cloud  1157 after decode audiolen:  36480  ,ced:  160  ,markinfo:  nil  
+[2020/11/25 10:54:44 285] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 295] tts_cloud  650  u_aul =  766080  audiolen =  766080  
+[2020/11/25 10:54:44 295] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 363] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 364] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 1884
+X-Req-Date: 2020/11/25 10:54:44 339
+CL: 1884
+X-Res-Date: 2020/11/25 10:54:44 345
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=224&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^fL^Lz3N5Jfow7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:1656
+
+ÿÕ%9½Œ©l¨pïª„Œ¾ã;@¯Öd0­ìïÇşCÅl;İÕ”ÇÇ|ÜL¼2¾Œ&"ÙäÑcäÁÏJ63HA•—>Âm‰¹¹9–sÈ¯¯Şùó	¡wÓòêzB]n(=ÌBÿ	8v{^ÈœŸöSØ@QC1…ÃHA„Á>À9*Øm'Üç¸-şÛVx a¯ãÌ±#yÌrUº¯ÿ¶èä(DmâÜ‘ûîÑ×  
+[2020/11/25 10:54:44 364] transport  1534 cvÓŞI¾•Üîö,Jª_fÀÃàçî©×+y†X`.¸ÖxWHD+‡`Go|×_;BLlz¶í‚²·r‡Ä258#Ù•ôWõµ¸Ÿœ1nÌ  
+[2020/11/25 10:54:44 364] transport  1534 ----  
+[2020/11/25 10:54:44 365] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 365] transport  1390 is_update  true  
+[2020/11/25 10:54:44 365] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 365] tts_cloud  326  response  
+[2020/11/25 10:54:44 366] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 366] tts_cloud  450  before decode audiolen:  17280  ,ced:  224  ,markinfo:  nil  
+[2020/11/25 10:54:44 366] tts_cloud  739  aud_data:len()=  1647  
+[2020/11/25 10:54:44 366] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 367] transport  1160 build http request.  
+[2020/11/25 10:54:44 367] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eWQ/K3NY9aYg7A4XA6CoBE  
+[2020/11/25 10:54:44 370] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 383] tts_cloud  650  u_aul =  783360  audiolen =  783360  
+[2020/11/25 10:54:44 383] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 437] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:44 437] tts        539  get audio|use cloud  
+[2020/11/25 10:54:44 437] tts_cloud  1157 after decode audiolen:  42240  ,ced:  160  ,markinfo:  nil  
+[2020/11/25 10:54:44 438] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 471] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 472] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3348
+X-Req-Date: 2020/11/25 10:54:44 439
+CL: 3348
+X-Res-Date: 2020/11/25 10:54:44 457
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=246&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^eWQ/K3NY9aYg7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3120
+
+R‰uÄ_·q°y×8µhaÏĞ£thP  
+[2020/11/25 10:54:44 472] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:44 472] transport  1534 õTtúû0W#$è;y²³ŞıÑÔvŞ¢ëy1:hdg;~MÁÙÆY+×¹õãHAİ1ç!iò:E[µ¯w.,ÛYé¨0„à|ø¦=èEV(8:_…%Q®>ÏdÁõ¤_FßÛ´Æ'sHCE@#eUÕutm6xòşó©Uír&#6àIw¼ö%îjZxÇ•Ã$´Yı•İNÊ´Å1äátBUT1)CHCVs-Ú›Ó¨>±iâÇ…¹²ğBø7[÷OÈyÂå‡V5<÷ß
+x9·.ÉTl´O”¹n„„¾ÓH@G“"¶Iv—fÆë\m  
+[2020/11/25 10:54:44 473] transport  1534 HEªØß%j	ÿ›¬µPœºÒ#Z-!gïù
+:«ù³¶eÚL
+±utP¾~¡B.çWMtñ86M5pcHFòûaº?İjt49²O"àG´RY	q«ÖÔšHò™•åı]5³+ën}TÇµº<µRuYÂØd)yfíØ%CrûõÙA¬èNé·'q.jp:´‡ú•Õ}û ‡£²ùL™0J6Î}%»Ç´DÑÔD¡£HGrkqÂ}?çÜ% ¦~61É²pŠİÚ±¶*òalÃÇ® ’­•a¸I5±^Ü!€TÇ´âeĞ]&†dóHGr_+§7óKìg&ø´Vâ­òìí«“€šw¸jî£2—4lYÉìÕêN‚O¦túpsú36sHGr -€Šûq{Ÿ_¯–¶@H;ğÄÁVÓŠ»¢2ÿÖˆ®ß0¹0¯nc7Tì5 N4–™i$øk0VtB¿£HGfX*`&ÿš/â³€».[6–6K0êÍõ±­ìsµŞ,êè³­±GÃ€¾~Ö>4””ôìºäRtT\s  
+[2020/11/25 10:54:44 473] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 473] transport  1390 is_update  true  
+[2020/11/25 10:54:44 473] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 474] tts_cloud  326  response  
+[2020/11/25 10:54:44 474] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 474] tts_cloud  450  before decode audiolen:  32640  ,ced:  246  ,markinfo:  nil  
+[2020/11/25 10:54:44 474] tts_cloud  739  aud_data:len()=  3111  
+[2020/11/25 10:54:44 475] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 475] transport  1160 build http request.  
+[2020/11/25 10:54:44 475] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^cxJSOfthByMA7A4XA6CoBE  
+[2020/11/25 10:54:44 478] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 502] tts_cloud  650  u_aul =  816000  audiolen =  816000  
+[2020/11/25 10:54:44 502] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 579] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 580] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3532
+X-Req-Date: 2020/11/25 10:54:44 539
+CL: 3532
+X-Res-Date: 2020/11/25 10:54:44 560
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&ofg=1&ced=246&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^cxJSOfthByMA7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3304
+
+@>x—N–«KğoNoÃ…©¶
+TLË ¡Ï'u‡2i6™üE×Õ´ÎYµ÷­ ş‘$Ğ–ä­?ôÑYå¿}ÓHG ½Plyvˆ/¾Ì}»r=FwbGšäM\è²RÑÌa¤†Ñ%X7=÷7	0³õˆõQB¤'·$²‡cHG İ ML&@Kš¾Âs!ñ8¢rUKËù“¶¾º6bïä˜¹Õ6
+Ö‚®)ÇgÎ³ô‚¤û©Ò¤n™“HA7–f~6ĞœÅÉ¶CBÌq«wæ«øó¥¬SÍèÚútÊ?µ5JØô2`­~³$™ÅŒ‰Ğ"qŞ ıİØãgzàºÚöt}vatÕóöÑ@/è¬ğÇ^}Ow_ö}»r¹lO8x~næ‡€oYÙ—@}ö²ÓHF¿	Ğƒ¬½E+ÅAœÁò]‘B}gLu*‹¡ˆDi6U8^KÕõ2sÙLp°>ôÆcôm(”ñÙÆ™ãHDµLÒyeƒ†éŒUm  
+[2020/11/25 10:54:44 580] transport  1534 pè}~ïÌõç~?Ê$2ÁgE}nJñğòU$a¹7yóHFÜ¬=Úmì´;'¶¤~©~ü¸8  
+[2020/11/25 10:54:44 581] transport  1534 ½']>ÓP(Õx“ºğ‡Ö~tõGâêi”0#<8}¤Î@ç7‰t83³ÆSHC¹’´ìd…Ü.0s‡­X=|X¹¬(  
+[2020/11/25 10:54:44 581] transport  1534 HE¶ä}ıG+ôWMOs[³Ú%2.»q¬Ñ{¶ŠG@Ö)+†ªÎnNCÁkó-wŞNÅ6†V¶ÖUYØÆ»:SHE®–^   
+[2020/11/25 10:54:44 581] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 581] transport  1390 is_update  true  
+[2020/11/25 10:54:44 582] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 582] tts_cloud  326  response  
+[2020/11/25 10:54:44 582] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 582] tts_cloud  450  before decode audiolen:  34560  ,ced:  246  ,markinfo:  nil  
+[2020/11/25 10:54:44 582] tts_cloud  739  aud_data:len()=  3294  
+[2020/11/25 10:54:44 583] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 583] transport  1160 build http request.  
+[2020/11/25 10:54:44 584] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^ek34l9h0j^wg7A4XA6CoBE  
+[2020/11/25 10:54:44 586] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 591] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:44 591] tts        539  get audio|use cloud  
+[2020/11/25 10:54:44 591] tts_cloud  1157 after decode audiolen:  34560  ,ced:  182  ,markinfo:  nil  
+[2020/11/25 10:54:44 591] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 612] tts_cloud  650  u_aul =  850560  audiolen =  850560  
+[2020/11/25 10:54:44 612] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 698] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 699] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3412
+X-Req-Date: 2020/11/25 10:54:44 659
+CL: 3412
+X-Res-Date: 2020/11/25 10:54:44 672
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=253&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^ek34l9h0j^wg7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3184
+
+ı<=àÎ†şÈÚ  
+[2020/11/25 10:54:44 699] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:44 699] transport  1534 ¬ÿ¼éï^ok¬»ˆ0;YÉ´lîRØ  
+[2020/11/25 10:54:44 700] transport  1534 HCB²ÍV–+.B"„l0åÅH5n«Å•cŞ¼È'w€Óş'bf³qÆ|!Ê´,Şu4k?D–£¯HCBY²ÍÇÛ?Œl.o¢¨x¹Dz·‚^®ı^_ÇvŸ¹CWBa@Ìáa«6‘ØÕ}3”VÅ1ØÌ_B	·-ÙZègè@­Ü¨Ô¸¡H\Ká’n‡y.B9«ùAÛ›ÿW‰aö‘ôÂåtoÙ(Ô¦ƒHCKAÓ,P•Ö¯Â”\Ôc{P¯Yğœjªu°|Ÿ…p™âZâ0'Ü	?îÆ.€r$z$À	ä5ÕH@KÊCŠgÃÛA®;OäÂ›Î¸¦4MGüS¬éĞOø²xÒó<ï.„ê·ÄVä5eÇBcH@]œÂT±íõ¦•O|°{ÈúÄQº®ü›óÓä  
+[2020/11/25 10:54:44 700] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 700] transport  1390 is_update  true  
+[2020/11/25 10:54:44 700] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 701] tts_cloud  326  response  
+[2020/11/25 10:54:44 701] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 701] tts_cloud  450  before decode audiolen:  33280  ,ced:  253  ,markinfo:  nil  
+[2020/11/25 10:54:44 701] tts_cloud  739  aud_data:len()=  3172  
+[2020/11/25 10:54:44 702] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 702] transport  1160 build http request.  
+[2020/11/25 10:54:44 702] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^chX435C2Zgrg7A4XA6CoBE  
+[2020/11/25 10:54:44 705] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 729] tts_cloud  650  u_aul =  883840  audiolen =  883840  
+[2020/11/25 10:54:44 729] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 743] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:44 743] tts        539  get audio|use cloud  
+[2020/11/25 10:54:44 744] tts_cloud  1157 after decode audiolen:  35200  ,ced:  182  ,markinfo:  nil  
+[2020/11/25 10:54:44 744] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 818] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 819] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 3836
+X-Req-Date: 2020/11/25 10:54:44 779
+CL: 3836
+X-Res-Date: 2020/11/25 10:54:44 795
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=1&ced=259&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^chX435C2Zgrg7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:3608
+
+Á8æ/‘wû¢,F›®6.DKc—$ôNbŠIÚ=2²¾CB¿–úŠ$qqÍ  
+[2020/11/25 10:54:44 819] transport  1534 6t.NÜÿx2p	YiiiiiiinOÁÙÁÙÁÙÁÙHBéoîT|uœœœœœœœğtÀ  
+[2020/11/25 10:54:44 819] transport  1534 yktsTù9Fºğ£9¹·¨Õ|¢ôê¬©ÃôÒV¬-=÷ƒ¾“gtç¤¯KtÌÂ4óX³H@4éĞÍyÍ‚Yr‡Üì[¹éå|¥ãeãpzÇßò?È–rˆÄ<ÛŠ.’„õæÅSĞ]¼Vû1SHAºá&¯E‘0Â#qqÜö("ÌÅQŠ6¼ni­al¸R;ÅtÒ—®:Ò‘¶„]îuæôïóHD·=~Ê¼8O·ÉŠLñ²šëì´¬òÎIRr‹¼÷ŸGø«:¥C%66°9„H@EÂPAÚ$y0ˆAœn¢ŒGŒâÚ„Aˆ9â.wèqòÛÂfÕãk}åÀ>’àÎ×:«v$ãHDEß³VhIÊ<Á—ØD;tØ´HHïçø¹ ÛœÆŸ˜Oí2è>dNŠ,<3“	L0.˜Å&\¹HD^±³@—x'Œ[WømìÛ‡REX/lÈ5n¶hß;f.F@ŠNõH¼Ú!ØMî5b&eËĞåª4ÄİsHA²çóíNÍ8ùn?ğ½bÂØFµe«öç¾hÔïı™õ]ÎÕêAö ›şsşä4µÃ™5™HCòá}Ê“”E\ïqKRÑFP}êT¢ëÕá´§¼Â`ôtÇèH"8¤Í¾ÎµH§j}w|Ç3HGğéÔÚEBœ0ŒrÏ|,³/XR¤¬‡}÷Wö’ş?Á¥Á  
+[2020/11/25 10:54:44 820] transport  1534 HD»Aû/×g/Ìu“l$øÃ2ï øPf¯á2òÚU°k„†î%CÙ0^}Š~‘u^+E4Ä=¤ô$HD·@Îb¨?1şM8‚®€ĞŞ£€&C÷ºìdbF‹–0í=ü6Oqş‘tºYt»°º¾}ÉPıÉ,6ÎfÏ¤F‘×vt}‘E´’èxš~™iŸâú»»b÷"îCFuËwöt•n’ô/±ÏäÅãóHGÛ0š.7åìÿPCº!J^8ù›´É±Û²p–Dæ^Š\z=(s*’âÀşŒäôÉ±ÿ4Â"SHA$ÏYn4†\»Œ¨Q|ÉÔƒyqûÈ^•\¸0lùã!d\—ñJM‹=”™g‚şT¹ÙOäÆG¹ÏHA*ÌXNdªü.E­œ¶B	ıÅNØ	ïA›ìépÂòEBKr5öÈ´™²Ÿ‹•ş^ŒÂ:8À46ú¢iHA)wêc¾^ÜXY..BÄ\;]@ûÈ‘¨ør/$§	—ÍG™ÌÙw{¾ŒºôzyäğäIÙ#HF)ÀšîJ¹I–Çt"[54¸¨é0lücä©ŸĞöŠ9SCH¼Ùv#¾Œ,Áô¶1ÇXT*FcHD(ºAW
+¾”_üÅPvf[êwÇ‘•{üm½ëØ¬'y0$Q{¾	ºYÕ½’4±Æ$UŸ$`ºsHE¯{ï¥XàÈÑâÌÛŒìkm[Ö|2ŠZ ¡/GxD­6VÌtQœT’$’d“n“‰Ay]c”¾1Gä”SHG4»ëø¦3Vi“K±m‹óĞ­.¯£ÌÔ«ôº· D„pÀ‹Ú‡(7|çrÂY^æ%EÜÄÚ=o‡‰XÃHFşÇxORir	pcEPY“G¦)~q}bıØQr?¥d²›Á'Z|xq]µ|pF{ñ,ú¡Òdö¿g“HGrMÜäèNü×C®«áBéÌs%AğÑîco*,Uh¦)‘ÈÓ§p'•Sü
+O¥Øş¦•ƒ÷u"} Æ¯&ãHGfqÜåö£-·,RnTùi—°I€İVÕÂ-¶v æ“ÂeNÓvî’jó	ràt/½îJİæv*D ¿O¶¯“HFæÀã†³8ìÌtCs  
+[2020/11/25 10:54:44 820] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 820] transport  1390 is_update  true  
+[2020/11/25 10:54:44 820] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 821] tts_cloud  326  response  
+[2020/11/25 10:54:44 821] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 821] tts_cloud  450  before decode audiolen:  37760  ,ced:  259  ,markinfo:  nil  
+[2020/11/25 10:54:44 821] tts_cloud  739  aud_data:len()=  3599  
+[2020/11/25 10:54:44 822] tts_cloud  686  send fch request  
+[2020/11/25 10:54:44 822] transport  1160 build http request.  
+[2020/11/25 10:54:44 822] transport  1262 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: text/plain
+Content-Length: 124
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+ver=MSSP+0%2E9&sub=tts&cmd=fch&cver=5%2E0%2E11%2E1086&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dhe1tymtOsCA7A4XA6CoBE  
+[2020/11/25 10:54:44 825] transport  480  [soc] [0] send ok  282  
+[2020/11/25 10:54:44 852] tts_cloud  650  u_aul =  921600  audiolen =  921600  
+[2020/11/25 10:54:44 852] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:44 895] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:44 896] tts        539  get audio|use cloud  
+[2020/11/25 10:54:44 896] tts_cloud  1157 after decode audiolen:  39040  ,ced:  192  ,markinfo:  nil  
+[2020/11/25 10:54:44 896] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:44 914] transport  492  [soc] [0] readable  
+[2020/11/25 10:54:44 915] transport  1534 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 907
+X-Req-Date: 2020/11/25 10:54:44 899
+CL: 907
+X-Res-Date: 2020/11/25 10:54:44 903
+
+----
+CT:text/plain
+CL:128
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E11%2E1086&ofg=2&ced=259&key=0dZBad^lJ^bJpjnn7SntgzgXM8lQuaD7fJGeT238wdS^dhe1tymtOsCA7A4XA6CoBE
+----
+CT:binary/audio
+CE:speex-wb,encrypt/0.2
+CL:680
+
+ã;1å”Ö»õõÔ„ß“ôûÅ4Z,$h{34¡¤Åï¦XYú÷Ò{®	õÌ<;|Nä&ÙÆOYâóHB?ÔW@AFbåÿ`W|;nÉy¡ÌLÂqdğò~Á ŸªVjSv7tGÀ—QŞì™ä»iäÅƒ4dF#HG3uàNfNÿ-­‹¦jwù«øò£ÔûĞÇ~ÀŒò!3¯üïüEpØ­ÕŞÔñÃô5$¨Ä¶aHG3=‰à5Š¿ì¬À'¤Ó«ûâkY} $SâğıG$“¼+şWÿHÁ^ÉT3Æğ	à&åH  
+[2020/11/25 10:54:44 915] transport  1534 ¨Â  ˆ@µÃÜŒBëp	ÁnéVGÃ'21çÆú³  
+[2020/11/25 10:54:44 915] transport  1281 a_complete_httpmessage  200  
+[2020/11/25 10:54:44 916] transport  1390 is_update  true  
+[2020/11/25 10:54:44 916] tts_cloud  311  [trans] [tts_cloudctts1PdHHBHZQTj3JTYtaaCFkBfkwk7d76] readable  
+[2020/11/25 10:54:44 916] tts_cloud  326  response  
+[2020/11/25 10:54:44 916] tts_cloud  351  sid =   tts000111d4@dx175fd53149d7522812  
+[2020/11/25 10:54:44 917] tts_cloud  433  text to last audio:  3156  .  
+[2020/11/25 10:54:44 917] tts_cloud  434  ssb to sse:  3156  .  
+[2020/11/25 10:54:44 917] tts_cloud  450  before decode audiolen:  7040  ,ced:  259  ,markinfo:  nil  
+[2020/11/25 10:54:44 917] tts_cloud  739  aud_data:len()=  671  
+[2020/11/25 10:54:44 926] tts_cloud  643  last audio  
+[2020/11/25 10:54:44 926] tts_cloud  650  u_aul =  928640  audiolen =  928640  
+[2020/11/25 10:54:44 926] tts_cloud  744  aud_data = nil  
+[2020/11/25 10:54:45 048] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 048] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 048] tts_cloud  1157 after decode audiolen:  35200  ,ced:  199  ,markinfo:  nil  
+[2020/11/25 10:54:45 049] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:45 201] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 201] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 201] tts_cloud  1157 after decode audiolen:  13440  ,ced:  199  ,markinfo:  nil  
+[2020/11/25 10:54:45 202] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:45 353] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 353] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 354] tts_cloud  1157 after decode audiolen:  33280  ,ced:  224  ,markinfo:  nil  
+[2020/11/25 10:54:45 354] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:45 506] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 506] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 506] tts_cloud  1157 after decode audiolen:  33280  ,ced:  224  ,markinfo:  nil  
+[2020/11/25 10:54:45 507] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:45 659] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 659] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 659] tts_cloud  1157 after decode audiolen:  17280  ,ced:  224  ,markinfo:  nil  
+[2020/11/25 10:54:45 659] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:45 811] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 811] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 812] tts_cloud  1157 after decode audiolen:  32640  ,ced:  246  ,markinfo:  nil  
+[2020/11/25 10:54:45 812] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:45 964] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:45 964] tts        539  get audio|use cloud  
+[2020/11/25 10:54:45 964] tts_cloud  1157 after decode audiolen:  34560  ,ced:  246  ,markinfo:  nil  
+[2020/11/25 10:54:45 965] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:46 117] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:46 117] tts        539  get audio|use cloud  
+[2020/11/25 10:54:46 117] tts_cloud  1157 after decode audiolen:  33280  ,ced:  253  ,markinfo:  nil  
+[2020/11/25 10:54:46 117] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:46 269] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:46 270] tts        539  get audio|use cloud  
+[2020/11/25 10:54:46 270] tts_cloud  1157 after decode audiolen:  37760  ,ced:  259  ,markinfo:  nil  
+[2020/11/25 10:54:46 270] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2020/11/25 10:54:46 422] tts        601  TTS_MSG_GETAUDIO  0  
+[2020/11/25 10:54:46 422] tts        539  get audio|use cloud  
+[2020/11/25 10:54:46 423] tts_cloud  1157 after decode audiolen:  7040  ,ced:  259  ,markinfo:  nil  
+[2020/11/25 10:54:46 423] tts_cloud  1217 TTS_MSG_GETAUDIO_CLOUD | synth_status  2  
+[2020/11/25 10:54:46 429] tts        604  TTS_MSG_SSE  
+[2020/11/25 10:54:46 429] tts        578  sse|use cloud  
+[2020/11/25 10:54:46 430] tts_cloud  1220 TTS_MSG_SSE_CLOUD  
+[2020/11/25 10:54:46 430] tts_cloud  791  tts session info  
